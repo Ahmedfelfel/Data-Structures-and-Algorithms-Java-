@@ -1,0 +1,26 @@
+type: edu
+custom_name: List Node
+files:
+  - name: src/ListNode.java
+    visible: true
+    placeholders:
+      - offset: 31
+        length: 63
+        placeholder_text: // Declare 2 fields (data and a next pointer) and a constructor
+        initial_state:
+          length: 63
+          offset: 31
+        initialized_from_dependency: false
+        encrypted_possible_answer: 3rSSMPsb2NI1aSbK8zd57hfLWip3cJs/bsNwKBI6bi/hZMEgTXKlAM4EnwAKv8sqp4itP+asv+b6t7xoJNsrMQ==
+        selected: false
+        status: Solved
+        student_answer: // Declare 2 fields (data and a next pointer) and a constructor
+    learner_created: false
+  - name: test/TestListNode.java
+    visible: false
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 20 Aug 2025 15:09:20 UTC"
+record: 7

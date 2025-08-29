@@ -1,0 +1,28 @@
+type: edu
+custom_name: Edge List
+files:
+  - name: src/Graph.java
+    visible: true
+    placeholders:
+      - offset: 248
+        length: 120
+        placeholder_text: "/* TODO: create a new GraphEdge and add it to edgeList */"
+        initial_state:
+          length: 57
+          offset: 248
+        initialized_from_dependency: false
+        encrypted_possible_answer: du7BK09LaDlhFv5k2vuyaM8JIVQ/bc/bw7mAduaeR70IPougfDeVKCFEtsnK/uayU/KD36fOP9jeVS8df7X6zA==
+        selected: true
+        status: Solved
+    learner_created: false
+  - name: test/TestGraphRepresentation.java
+    visible: false
+    learner_created: false
+  - name: src/GraphEdge.java
+    visible: true
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 29 Aug 2025 16:34:20 UTC"
+record: -1

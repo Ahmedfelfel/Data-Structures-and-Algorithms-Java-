@@ -1,0 +1,60 @@
+type: edu
+custom_name: Dynamic Programming Solution
+files:
+  - name: src/Knapsack.java
+    visible: true
+    placeholders:
+      - offset: 98
+        length: 61
+        placeholder_text: "/* TODO: declare a memoization table */"
+        initial_state:
+          length: 39
+          offset: 98
+        initialized_from_dependency: false
+        encrypted_possible_answer: zzl2gkP7e9xPzZWWaWf1pGwzzru/STHAP8tCFdRSV+E=
+        selected: true
+        status: Solved
+      - offset: 210
+        length: 850
+        placeholder_text: "/* TODO: implement the algorithm just as in the task description\
+      \ */"
+        dependency:
+          section: 04-DynamicProgramming
+          lesson: knapsack
+          task: recursive
+          file: src/Knapsack.java
+          placeholder: 1
+        initial_state:
+          length: 67
+          offset: 192
+        initialized_from_dependency: true
+        encrypted_possible_answer: oeq6gL76JrG5IiUzVMBKXagEjt6GTDrISkiSP2OV8oGJIA1nRW1OKjSelokDFUmcqtEsyGoHpbC2PMRk5oCJcwDEK6SioFY6chb2sNpREONtB112nwzCcgmIVjOuKLMUwrqUc12iHXg8P7x12CYjTg6iEzAOAEAPlzGv8rdpfmiaA8XQT12S29m+MlaaQRMXiec5RtY+7RBeShEtvGBnXtX3qUlcsEMINKjeeorXyehax4VuCYRs90DzKCWKzGCKgh1L1YOWp8Vhv/eiGXKbIUV5HiaHKc1HbpgcR3P7n4whZJhjTvQk5Sqebc1aUmyej8A8UdsCKiWWTk9Va4Ez040foQPGWbywdNp2BMZsx4jsAR9K+Uk/+2BH10NTChV1uhXbdTfUIJObLq+3mHxvcRy5UbfeRwLiOP7FyUwPfNNscpiZi4gVSDqpDACmTpBuVPaiOSGuoCEzvalGLeHLpOXQimKjIgTGbPbSmIG/3ZGCCasko2JwrLRQFzJudAg1sQI7X8aPHTRTvEyXgG335Hm6kpGzPWtP+u2zKCuYP/KcockQhGQgeBwfEmrxri5Dy630K8lfXQoG6WuZbCGMog/k7qJv1W2oxFL1o8Umsuj2frFMf8ossC2V9bRVADgCbvr6UAvHeJHUicVZ2sWcNu3mYg8sFT8VTtnSYq62RQD/b+DjlnmFyvrm+0uegNyTAXMa4swJFYnDaXs3o72/sLQJrANUqTv9Sf+wKqIsywRZs86zepCzg7LuTNA6Mcd91GGlURNuX4/KgPAtgwDdPZn1Hsr8Ob2dxZSzqIbsDFiMF0j0Kaojtpjm4AAR2s4s6yqYZYWnTDXdMUG4iwIAjluUhcjwEYCfCDHaE/aKOTxKzXDAiNVxwNIZKvtuZSltW5+oV0Ce5rX2bCSaqqF8Jg==
+        selected: false
+        status: Solved
+        is_visible: false
+      - offset: 1593
+        length: 304
+        placeholder_text: "/* TODO: define an item object class */"
+        dependency:
+          section: 04-DynamicProgramming
+          lesson: knapsack
+          task: recursive
+          file: src/Knapsack.java
+          placeholder: 2
+        initial_state:
+          length: 39
+          offset: 800
+        initialized_from_dependency: true
+        encrypted_possible_answer: 1IWyKC8eBEEojU7GwtKt0eLB1UcZy2sSlCWaorVRXEcOSiZQtac/yQ3Q5IHEGZopP2peMA8Zz0sheQ1UZ+DXtIo2WgoT7TD4S5+vGP4yI9MI+9sadday8n3D4hVxgSTvIzohN6yCEPensLmsMxdbZ5qWiDyYj8Xtt+CqeXeNKaFshahuF1z4Y3t6AqrPGvq2z9oaetTBH1hUkJHIb3ugdrd6m8WMEGI/bRXsT5M02jis2NEyGxZbPSDh98D9UEGnLYoQ4fb4NoVKZkbfYMo52q+lt3KbZ5iEhl6G2NC36yE=
+        selected: false
+        status: Solved
+        is_visible: false
+    learner_created: false
+  - name: test/TestKnapsack.java
+    visible: false
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 29 Aug 2025 00:41:27 UTC"
+record: -1

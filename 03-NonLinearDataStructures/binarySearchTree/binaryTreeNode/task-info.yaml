@@ -1,0 +1,30 @@
+type: edu
+custom_name: Binary Tree Node
+files:
+  - name: src/BinarySearchTree.java
+    visible: true
+    placeholders:
+      - offset: 183
+        length: 121
+        placeholder_text: "/* TODO: implement a binary tree node */"
+        initial_state:
+          length: 40
+          offset: 183
+        initialized_from_dependency: false
+        encrypted_possible_answer: mKxJPzeU6s9OP1TmvFh4+x+yOG683oJyNE0gBcSmb0Am8dfHVA+jRA76fQNCSWXVgJI13UDY+Tx7UWg28YAwz2PW5FtYLom6ld69oWUL7Dw=
+        selected: true
+        status: Solved
+        student_answer: |
+          /* TODO: implement a binary tree node */
+                  K key;
+                  BinaryTreeNode<K> left;
+                  BinaryTreeNode<K> right;
+    learner_created: false
+  - name: test/TestBST.java
+    visible: false
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 23 Aug 2025 23:33:57 UTC"
+record: 19

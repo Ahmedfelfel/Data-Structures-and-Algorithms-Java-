@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSelectionSort" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-08-01T15:59:36" hostname="AHMEDFELFEL-LAP" time="65.473">
+  <properties/>
+  <testcase name="itShouldBeSoSlow()" classname="TestSelectionSort" time="65.446"/>
+  <testcase name="itShouldSort()" classname="TestSelectionSort" time="0.014"/>
+  <testcase name="itShouldSwap()" classname="TestSelectionSort" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,188 @@
+type: edu
+custom_name: Searching
+files:
+  - name: src/BinarySearchTree.java
+    visible: true
+    placeholders:
+      - offset: 425
+        length: 37
+        placeholder_text: "/* TODO: takes a value here */"
+        dependency:
+          section: 03-NonLinearDataStructures
+          lesson: binarySearchTree
+          task: keyValueMapping
+          file: src/BinarySearchTree.java
+          placeholder: 1
+        initial_state:
+          length: 30
+          offset: 426
+        initialized_from_dependency: true
+        encrypted_possible_answer: cDUVxV6uJ7LpBBq/jZ3a9A==
+        selected: false
+        status: Solved
+        is_visible: false
+      - offset: 474
+        length: 387
+        placeholder_text: "/* TODO: implement BST inserting here */"
+        dependency:
+          section: 03-NonLinearDataStructures
+          lesson: binarySearchTree
+          task: keyValueMapping
+          file: src/BinarySearchTree.java
+          placeholder: 2
+        initial_state:
+          length: 93
+          offset: 468
+        initialized_from_dependency: true
+        encrypted_possible_answer: mMh+c2TiMG5Xot9J/v3bnYy4KfVgouowS7U34TIK5dz+27sfMJF8qV/85LiqOJI5qc9frvDEN5Ki3gGr9dx+r3CL3JHsxGjKyEEaP9qxbNQKB508xZb5R0NDb/wr3krZHQlUkiSGFYcRa2gRfpiAOhArrpNhCy8cmuFbUl4lYNPUQyy2QMyGnATH4KHi4HjrtEpWImVPmAF2lR9N7DtobIf/iWIHrHVfb4gP013FarAhQiiR28/3QCQBpqyc0Cd+iMB7wZj+4PmdG/8dykUSLSELQu2XhBLuYlQ/WpA61g5+pH+fV4LeH4Mgle1RMiCCaVDaw794N+xJijVabp4b20iCJ+nNzNLwpxL8ebIcsqvu3ukIMUwI+HWyoJ3WZtuoNXWmtgs37CLX0cmsjn/p78HOyuxL4D8NFR0k5w5ocQaGFz3tO1vLYVLWM2GSASW4r0hX2zlnnJE0rU8sMTxiYAoXYJb6BgR90MV+WZVE39clqnYUtIMOW49QQFQ2SOaVSwgX7rhfCnvUnrGrUgRtOn5jYEi3yHBoqH9aNjOY8nUloHDOucAsmePjQ1KSo/uR
+        selected: false
+        status: Solved
+        is_visible: false
+      - offset: 474
+        length: 350
+        placeholder_text: "/* TODO: assigns value to the node here */"
+        dependency:
+          section: 03-NonLinearDataStructures
+          lesson: binarySearchTree
+          task: keyValueMapping
+          file: src/BinarySearchTree.java
+          placeholder: 3
+        initial_state:
+          length: 53
+          offset: 468
+        initialized_from_dependency: true
+        encrypted_possible_answer: BPrPxsoPO0ddRfXxWyDgbA==
+        selected: false
+        status: Solved
+        is_visible: false
+      - offset: 474
+        length: 350
+        placeholder_text: "/* TODO: recursively pass the value to the subtree */"
+        dependency:
+          section: 03-NonLinearDataStructures
+          lesson: binarySearchTree
+          task: keyValueMapping
+          file: src/BinarySearchTree.java
+          placeholder: 4
+        initial_state:
+          length: 53
+          offset: 468
+        initialized_from_dependency: true
+        encrypted_possible_answer: H2mtByhdRBUF1SKqbsyWSPW6YGN8VJroa7GI9gPailXjxql10YevLxTaN4NWBT8P
+        selected: false
+        status: Solved
+        is_visible: false
+      - offset: 474
+        length: 350
+        placeholder_text: "/* TODO: recursively pass the value to the subtree */"
+        dependency:
+          section: 03-NonLinearDataStructures
+          lesson: binarySearchTree
+          task: keyValueMapping
+          file: src/BinarySearchTree.java
+          placeholder: 5
+        initial_state:
+          length: 53
+          offset: 468
+        initialized_from_dependency: true
+        encrypted_possible_answer: 5+6GmfSBHVjtrjvUJN4TOxA/WkbE8Dz6hb9BEmF3sGR/rQK4lLSnBDtsTCXfKVn/HLSanN9C8vsIJvLQRT7wcA==
+        selected: false
+        status: Solved
+        is_visible: false
+      - offset: 903
+        length: 146
+        placeholder_text: "/* TODO: call the search() and return its value */"
+        initial_state:
+          length: 50
+          offset: 603
+        initialized_from_dependency: false
+        encrypted_possible_answer: hVvF4RGDjp31kkapomlBD58UJjMqMTLfrGMXJ+6w0y8=
+        selected: true
+        status: Solved
+      - offset: 1138
+        length: 290
+        placeholder_text: "/* TODO: implement the BST searching algorithm */"
+        initial_state:
+          length: 49
+          offset: 742
+        initialized_from_dependency: false
+        encrypted_possible_answer: jVeBU2xO0AF0vLbAAmHZcl1g9vlrZpMFWkF9Ltb2k9YUVyX73cZx3Tw2xH3YhySQc7/P3vgqecB3uErrNhhmoy5EHzZ9YQM1oNaYGfiPKRUprRdywVLTQw2NiPlXjzznA/2Zru9wbqTqO9iKOKc8c02WkB7UxnK28f7LYZQx53IcjkNt7Id30thuN8S1+5TQs43FCCapfjDlDFl/MQ+Tfzb61eVT5kOmIqqUvz8S99UnvV3Gvv29AEXKxc9+RCsug105c0P9XDDPLzIt61q3o6n7nCzNGmpPtm2bWQHfvY/3EtBKiA5YCqhQovS5LPIRFCjcvbGzLoy1s9IZR2iEng==
+        selected: true
+        status: Solved
+      - offset: 2030
+        length: 202
+        placeholder_text: "/* TODO: implement the preorder traversal */"
+        dependency:
+          section: 03-NonLinearDataStructures
+          lesson: binarySearchTree
+          task: keyValueMapping
+          file: src/BinarySearchTree.java
+          placeholder: 6
+        initial_state:
+          length: 44
+          offset: 1393
+        initialized_from_dependency: true
+        encrypted_possible_answer: jVeBU2xO0AF0vLbAAmHZcs8ZsgwE0etr4DjOcV3dHiybPiqsDSjCxOyALumKtFxYS52ieS7aFpS9Ocbo6RQ4Cgr4NtyPqPs4UCNx5u3hPMtWtjkk87uB5QXKeWtvz+TQbREvhDuBosCYmOdELocZzHuDbTEUebHffbtuX2cPyEOguzDF0im5P6JKgBDA7uE1YCEW2OG92+WSyqMAXtesZA==
+        selected: false
+        status: Solved
+        is_visible: false
+      - offset: 2322
+        length: 199
+        placeholder_text: "/* TODO: implement the inorder traversal */"
+        dependency:
+          section: 03-NonLinearDataStructures
+          lesson: binarySearchTree
+          task: keyValueMapping
+          file: src/BinarySearchTree.java
+          placeholder: 7
+        initial_state:
+          length: 43
+          offset: 1527
+        initialized_from_dependency: true
+        encrypted_possible_answer: jVeBU2xO0AF0vLbAAmHZcmAH2j6Q1FxadDlkooZQnT6z21dPei0IOylZbwZrc4vCQ/tWoOwzK7jlp9mw3QxUw8UJk8JA7jBPzN/kMSLsBIfBwH73QsQFPqkxRnxid5GGww1dqafUdK8h5Y3UgYZjpMfuIMoLOo3q4EQVBUVgrxNJi6sYKwEUFpuV57xnnOZhzDsAdgLHt2qLZOPcA2f/zA==
+        selected: false
+        status: Solved
+        is_visible: false
+      - offset: 2613
+        length: 205
+        placeholder_text: "/* TODO: implement the postorder traversal */"
+        dependency:
+          section: 03-NonLinearDataStructures
+          lesson: binarySearchTree
+          task: keyValueMapping
+          file: src/BinarySearchTree.java
+          placeholder: 8
+        initial_state:
+          length: 45
+          offset: 1662
+        initialized_from_dependency: true
+        encrypted_possible_answer: jVeBU2xO0AF0vLbAAmHZctw1cBWlYsK6GnaRc1ZME3mZ72UHvTrsKMmNfd892/EGfZdayO8tBqSiN685AiCwz1KwPYkZdbM4ZgTDmZHJ6AikJZZPtu4yqVKZ/VlspsxRipqqRzc8gULXkr5rehIbfGgtrx/Meu8DfPPW5EtRN8wlxs5oEkzSdZqnyrJlhvqZ/NSxByXGN34hE/l8cxZceg==
+        selected: false
+        status: Solved
+        is_visible: false
+      - offset: 2882
+        length: 144
+        placeholder_text: "/* TODO: implement a binary tree node */"
+        dependency:
+          section: 03-NonLinearDataStructures
+          lesson: binarySearchTree
+          task: keyValueMapping
+          file: src/BinarySearchTree.java
+          placeholder: 9
+        initial_state:
+          length: 40
+          offset: 1771
+        initialized_from_dependency: true
+        encrypted_possible_answer: 0ICsuNW9UzKCUPrsRW90d0ZE+Ggm0dsJZNY8eByEP980Y39E9j9vZXvEkYR0LzgJPcJyO6o8okxXchKzXis9wDR4n21//1Z0lJliDdlduT4MS2YXVECPJZA8dRTKlHHV
+        selected: false
+        status: Solved
+        is_visible: false
+    learner_created: false
+  - name: test/TestBST.java
+    visible: false
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 26 Aug 2025 16:00:23 UTC"
+record: -1

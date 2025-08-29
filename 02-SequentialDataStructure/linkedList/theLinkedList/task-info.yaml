@@ -1,0 +1,56 @@
+type: edu
+custom_name: Linked List
+files:
+  - name: src/LinkedList.java
+    visible: true
+    placeholders:
+      - offset: 50
+        length: 73
+        placeholder_text: "/* TODO: declare head and tail ListNode pointers, and an integer\
+      \ size  */"
+        initial_state:
+          length: 73
+          offset: 50
+        initialized_from_dependency: false
+        encrypted_possible_answer: Us8ImVm5si7LGC21DAStMHl2UR3K8hIQaYAQpc+rt8vCKmwSbeJ1gyaEfvdX9Bnux2JuidTg9CkFZdVeZ5SrjA==
+        selected: false
+        status: Solved
+        student_answer: "/* TODO: declare head and tail ListNode pointers, and an integer\
+      \ size  */"
+      - offset: 186
+        length: 39
+        placeholder_text: "/* TODO: create an empty constructor */"
+        initial_state:
+          length: 39
+          offset: 147
+        initialized_from_dependency: false
+        encrypted_possible_answer: cL/SRBFOWvLHRzpqX84VtjW6TBW0Cx4Ty/NJ35KgSAk=
+        selected: false
+        status: Solved
+        student_answer: "/* TODO: create an empty constructor */"
+      - offset: 313
+        length: 63
+        placeholder_text: /* Implement a ListNode here */
+        dependency:
+          section: 02-SequentialDataStructure
+          lesson: linkedList
+          task: theListNode
+          file: src/ListNode.java
+          placeholder: 1
+        initial_state:
+          length: 31
+          offset: 259
+        initialized_from_dependency: true
+        encrypted_possible_answer: FQXZdIt+piYkTENOxeqYjYaS4f26eI03Hgq3ALRXSpu/fAOZQLlJ2By6HrSH6eq5UJG9zNotbxwrZ0yjVm+NyQ==
+        selected: false
+        status: Solved
+        student_answer: // Declare 2 fields (data and a next pointer) and a constructor
+    learner_created: false
+  - name: test/TestLinkedList.java
+    visible: false
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 20 Aug 2025 15:12:24 UTC"
+record: 8

@@ -1,0 +1,6 @@
+custom_name: Sequential Data Structures
+content:
+  - linkedList
+  - stack
+  - queue
+  - heap

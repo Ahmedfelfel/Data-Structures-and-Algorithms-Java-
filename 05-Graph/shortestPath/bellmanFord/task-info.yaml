@@ -1,0 +1,56 @@
+type: edu
+custom_name: Bellman-Ford
+files:
+  - name: src/Graph.java
+    visible: true
+    placeholders:
+      - offset: 486
+        length: 120
+        placeholder_text: "/* TODO: create a new GraphEdge and add it to edgeList */"
+        dependency:
+          section: 05-Graph
+          lesson: representation
+          task: edgeList
+          file: src/Graph.java
+          placeholder: 1
+        initial_state:
+          length: 57
+          offset: 486
+        initialized_from_dependency: false
+        encrypted_possible_answer: du7BK09LaDlhFv5k2vuyaM8JIVQ/bc/bw7mAduaeR70IPougfDeVKCFEtsnK/uayU/KD36fOP9jeVS8df7X6zA==
+        selected: true
+        status: Solved
+      - offset: 903
+        length: 1337
+        placeholder_text: "/* TODO: implement the Bellman-Ford algorithm here */"
+        initial_state:
+          length: 53
+          offset: 840
+        initialized_from_dependency: false
+        encrypted_possible_answer: EArMiPGxEcesFOBpcEhsHW3VjclGH4JCp5Oe5HeuitBBJy2teZefVluVSs+Tn2xFjK1LPcKOAY4yJZlDeoAmDK2A4GzAuYrYs2BICbqjZ3HqBQGf7XNA5G3yXN6ruW2P3EuvoBniDgja9r7F0xq82Vkw6MorE5YzUjepyBNQUEcC4Hf/mFfKjDa7jj8C3SxcLFe4h5mNs9tlamWHwakUG/EJTt0hid+va4jKZFSvnz2LtNeURJvhMwTFgn3/qhJa9x606WSJRYZbVs0t+7KzNYK+evBeVl3sEIMqQkk7I6o5SQcuetAWUoQSFOufrWa1OMUYQJ1OBvdL+39bcmiMuNJk5YMRV9ZIs46qcFUGebzIZ3PfXJ5w1mbZQCQXbEpLpR6uKRisWdEjwfzjPySCrwB0DzlW2bkqpaUjeq14u7F8xMblxeLuwa1tv5FdGpAJiFDXazOhgJsiwzHW1mZ1GZ0H/fzedp+MURcNO0lkMa78lQzLBj3ObfYkFa88ZFaXBJ/Kk/J/IX8ngC5k/F5uVfHxJxL2yixv6AQGVVFpNtyxK5Zq5rNs+IiI6YoL9RyjWUMzav9YVYYGUSqlenjgLhyFVVsBO2lGV42Q9z1ld0mphVBiIUU7rGS8X9Tshxto974Nfhb4Fy4qINZEV62bJdQThVsbnfws51chUSr5JNF9UhEqcGeYOUmmt14a2LPP4aWKKceVVAjYShvbNBONBlT6hYbxycdfPj2Uj6AzCTe+6agmKEWLJ6lllp7QmuagtWtWQL0S+jEY7AJFhBG2bQicPE1P8Cpm9yBvQB/t7qsGAzPXFQSWpQ51J52t0WXHvFo5iYDfVdcnRCnlhvWGMQ==
+        selected: true
+        status: Solved
+    learner_created: false
+  - name: test/TestBellmanFord.java
+    visible: false
+    learner_created: false
+  - name: src/GraphEdge.java
+    visible: true
+    learner_created: false
+  - name: src/GraphDistance.java
+    visible: true
+    learner_created: false
+  - name: src/IntegerGraph.java
+    visible: true
+    learner_created: false
+  - name: src/LongGraph.java
+    visible: true
+    learner_created: false
+  - name: src/DoubleGraph.java
+    visible: true
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 29 Aug 2025 17:15:26 UTC"
+record: -1

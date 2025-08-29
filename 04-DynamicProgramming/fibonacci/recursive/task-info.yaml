@@ -1,0 +1,30 @@
+type: edu
+custom_name: Recursive Fibonacci
+files:
+  - name: src/Fibonacci.java
+    visible: true
+    placeholders:
+      - offset: 68
+        length: 118
+        placeholder_text: "/* TODO: implement the fibonacci recurrence */"
+        initial_state:
+          length: 46
+          offset: 68
+        initialized_from_dependency: false
+        encrypted_possible_answer: mAXOGXWK7fgfmkrLyXVKfc/QpOx58QI/OCs+GNPbNQntRsTkq2d+55MSz33xNbJqN0Gj4mnO9DRIrx3Ez4Q2F5TEwWUX63QnZ5kizGy1x6A=
+        selected: true
+        status: Solved
+        student_answer: |-
+          /* TODO: implement the fibonacci recurrence */
+                  if (n<=1)
+                      return n;
+                  return of(n-1)+of(n-2);
+    learner_created: false
+  - name: test/TestFibonacci.java
+    visible: false
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 26 Aug 2025 18:36:27 UTC"
+record: 23

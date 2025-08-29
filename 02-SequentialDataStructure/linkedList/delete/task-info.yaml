@@ -1,0 +1,128 @@
+type: edu
+custom_name: delete()
+files:
+  - name: src/LinkedList.java
+    visible: true
+    placeholders:
+      - offset: 74
+        length: 73
+        placeholder_text: "/* TODO: declare head and tail ListNode pointers, and an integer\
+      \ size  */"
+        dependency:
+          section: 02-SequentialDataStructure
+          lesson: linkedList
+          task: toString
+          file: src/LinkedList.java
+          placeholder: 1
+        initial_state:
+          length: 73
+          offset: 74
+        initialized_from_dependency: true
+        encrypted_possible_answer: Us8ImVm5si7LGC21DAStMHl2UR3K8hIQaYAQpc+rt8vCKmwSbeJ1gyaEfvdX9Bnux2JuidTg9CkFZdVeZ5SrjA==
+        selected: false
+        status: Solved
+        student_answer: "/* TODO: declare head and tail ListNode pointers, and an integer\
+      \ size  */"
+        is_visible: false
+      - offset: 228
+        length: 39
+        placeholder_text: "/* TODO: create an empty constructor */"
+        dependency:
+          section: 02-SequentialDataStructure
+          lesson: linkedList
+          task: toString
+          file: src/LinkedList.java
+          placeholder: 2
+        initial_state:
+          length: 39
+          offset: 171
+        initialized_from_dependency: true
+        encrypted_possible_answer: cL/SRBFOWvLHRzpqX84VtjW6TBW0Cx4Ty/NJ35KgSAk=
+        selected: false
+        status: Solved
+        student_answer: "/* TODO: create an empty constructor */"
+        is_visible: false
+      - offset: 390
+        length: 91
+        placeholder_text: "/* TODO: implement the addFirst() which add a new node with\
+      \ data to the head of the list */"
+        dependency:
+          section: 02-SequentialDataStructure
+          lesson: linkedList
+          task: toString
+          file: src/LinkedList.java
+          placeholder: 3
+        initial_state:
+          length: 91
+          offset: 300
+        initialized_from_dependency: true
+        encrypted_possible_answer: fq0vAfP7Tc3U5ztfbHWjw6H/EQ4iPT13aW0ctV8L3aRXRyYkFJUFOxK7kffma1gHe805t0RVHvfnYeGP7A1El8gBgB8eNOXDRUuL3UCDMG+vXQBVQZOrffKG9Z+P3cXuqtU/yubYRxnuL47jSA34MvbWYqwJV9ef9DNpZZDV0SHYqB+e0G783QeTcS2eezUpWDtqP85K6L8nohwNfPAn25AAIAM197Bl5aGPi1Bzqj+iUWdrmwQaEYq+i86eYjLbW0F2EgFxoNHzXg3lJ1CGY9PxyurPEodtASacTQKX9d2tNuwk6oIuM1fiYM3R+SMP
+        selected: false
+        status: Solved
+        student_answer: "/* TODO: implement the addFirst() which add a new node with data\
+      \ to the head of the list */"
+        is_visible: false
+      - offset: 779
+        length: 40
+        placeholder_text: "/* TODO: convert a list into a String */"
+        dependency:
+          section: 02-SequentialDataStructure
+          lesson: linkedList
+          task: toString
+          file: src/LinkedList.java
+          placeholder: 4
+        initial_state:
+          length: 40
+          offset: 437
+        initialized_from_dependency: true
+        encrypted_possible_answer: dyYaptODqdCFbCEKqyx5WZMQWn+/+OOdXcymNklVaYJT7j+w0ZUGb3S1oYqSBnZBlcg+lDajFb0FG/5ZifFA69MgEK69+hkaKivrZ+fioGOzQi+KB500lbPgIUMMcJ49r2eDwEfZCQoIo3XajmY4jq6DkvcMjJ7zF2neJ01nmQ1u8/A4eIFJdCRYe5tBt+cIgTJm8OIHfORu6OdptPIZSHlb+GygKoVzeKk0E5vJPPyEWsqzQXUS/HpWkopqESDBmBXyrVOs3cXaoHmXDL60De8cZTCQen1Rfakqegco+YF7OzHsOj6sH1w07eumyQ/0W9DvII16/1AGZnffQYGtlQ==
+        selected: false
+        status: Solved
+        student_answer: "/* TODO: convert a list into a String */"
+        is_visible: false
+      - offset: 1130
+        length: 65
+        placeholder_text: "/* TODO: find the first occurrence and unlink it from the list\
+      \ */"
+        initial_state:
+          length: 65
+          offset: 530
+        initialized_from_dependency: false
+        encrypted_possible_answer: +jWZ3wyff+PHy2wqEjipXToam4ZHwpTNWkX6cJ8Hn3CqqeN+1SlP0U+h/3ebJbiTMSHFHp8FBRS9WfYdJ7N/YZwQ4A3fQAER6Cu9PyZWA7XrsBTZqUw0c3jCIezxwFrOdDtSKooYxVL+savxumiyaZHn+hfJqe9i6zQKMOixH4FMPcgpncfRet7K38PYsBUIE3sDOfkh1D667E6OAP/KF1/cBQ2qSdzM/hUgR5jtJ5Aa+UU4qpYWZET3VmuDCPt/7LkkFaluEPN/aMEmxTOWtMsAAOxKyq3buZXFzT1iYwvJcvWAYPrdC5vLc+D/xvuU65zdKSPJcaIZunBZ+Ft4wW7zL4d2YvSbJeIFo2bUlpA98QHhaS+V+n7ohGEy2sCosKzsOkP9WqMEFi/z/5nkbxLvB8udwSgcsbdDpsJH66fLtZQlGtomA6EQZYOP4mi+kfs5mn5lcwv+R4h1yS/oIW3E7OAzNuIFhPLOKE0d0PAeS8pY6zW6Kgh17N2RMFW0rXDXzYey6j3uVYonKZfoSLB37BjDbGtvoAkES9UR3CrGK6RhE1zs2NQi7NN3IzB9w8vjG0SiJ6C8LAQnzW4aWFasrupjKUaeSL/4imJT8Gx0sh4jBfwuukZcuTRMcLPoflel/3zXUcv8/HsoejHW2FZ1jfhe3w0EoBag1MJNTBOCZmlouZ1hposovRSa08vZwaFzWyZ8OblnUtAbFVRIhl0O/owpHLdQP1WYKag8HZXqk2HD9YfKHiY+UEm1q+l2Gz/NmxmSm/FP6SbuEgm8g44V2jB51cro0V+yU/TBgc0gJUKWynraXOMtAJEAzD1L8tvPizD4wxkROrzTLe+4NGyy5cQ5nkrPQ2Nk9V1WeGpU5kzLwpYHtLtwMd4FIeIiVPgrVjzTMzZsmqyG1wgjoFZdosFzV5ukfNqz1PnCyj7lbn/6vvT67uFQ2zRoxMiynXTFedkk02uCMCun9ZiPNRIfNllkXS/TQSOAvoMSPiWa/XFuYUYXuRb4hVYGW4YbqcaI8XzbdZzAJ6fJsrBG+XJ5B/ScCPTeN5J6QpBwAjtZL+c2OPMoRsxhmnVMXU9x7gdI2r2ZhOOqxC3SmYbR9g==
+        selected: false
+        status: Solved
+        student_answer: "/* TODO: find the first occurrence and unlink it from the list\
+      \ */"
+      - offset: 1933
+        length: 73
+        placeholder_text: /* Implement a ListNode here */
+        dependency:
+          section: 02-SequentialDataStructure
+          lesson: linkedList
+          task: toString
+          file: src/LinkedList.java
+          placeholder: 5
+        initial_state:
+          length: 31
+          offset: 674
+        initialized_from_dependency: true
+        encrypted_possible_answer: FQXZdIt+piYkTENOxeqYjYaS4f26eI03Hgq3ALRXSpu/fAOZQLlJ2By6HrSH6eq5HasOUKyQ+WuM9Q62bc59aQ==
+        selected: false
+        status: Solved
+        student_answer: |-
+          /* Implement a ListNode here */
+                  E data;
+                  ListNode<E> next;
+        is_visible: false
+    learner_created: false
+  - name: src/AbstractList.java
+    visible: false
+    learner_created: false
+  - name: test/TestDelete.java
+    visible: false
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 22 Aug 2025 16:49:09 UTC"
+record: 11

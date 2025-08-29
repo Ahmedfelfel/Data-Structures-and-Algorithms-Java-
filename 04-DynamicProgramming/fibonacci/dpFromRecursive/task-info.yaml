@@ -1,0 +1,29 @@
+type: edu
+custom_name: Top-Down DP Fibonacci
+files:
+  - name: src/Fibonacci.java
+    visible: true
+    placeholders:
+      - offset: 321
+        length: 136
+        placeholder_text: "/* TODO: implement a top-down DP Fibonacci using memoization\
+      \ technique */"
+        initial_state:
+          length: 73
+          offset: 307
+        initialized_from_dependency: false
+        encrypted_possible_answer: LnJB+wmzWh0yM+aDaI9hJ4rN/9V6ZDvr8fZKWpn+0IH96oOUqZ5Nxec5vjcig+Jf/6MqBA0FeWK9nW5TqCX8pfjWGT46QfuSha6Wr2AciLyaO2J+Ott61tzRX0eDmuiI
+        selected: true
+        status: Solved
+        student_answer: |-
+          /* TODO: implement a top-down DP Fibonacci using memoization technique */
+                      return of(n-1)+of(n-2);
+    learner_created: false
+  - name: test/TestFibonacci.java
+    visible: false
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 28 Aug 2025 18:45:36 UTC"
+record: 24

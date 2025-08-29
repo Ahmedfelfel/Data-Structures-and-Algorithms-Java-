@@ -1,0 +1,32 @@
+type: edu
+custom_name: Pushing
+files:
+  - name: src/Stack.java
+    visible: true
+    placeholders:
+      - offset: 130
+        length: 36
+        placeholder_text: "/* TODO: implement stack's push() */"
+        initial_state:
+          length: 36
+          offset: 130
+        initialized_from_dependency: false
+        encrypted_possible_answer: x//qtwH41m0tQYE2j0IBHw==
+        selected: true
+        status: Solved
+        student_answer: "/* TODO: implement stack's push() */"
+    learner_created: false
+  - name: test/TestStack.java
+    visible: false
+    learner_created: false
+  - name: src/LinkedList.java
+    visible: false
+    learner_created: false
+  - name: src/AbstractList.java
+    visible: false
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 23 Aug 2025 11:31:44 UTC"
+record: 12

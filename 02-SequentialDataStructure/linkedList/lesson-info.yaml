@@ -1,0 +1,9 @@
+type: framework
+custom_name: Linked List
+content:
+  - theListNode
+  - theLinkedList
+  - addFirst
+  - toString
+  - delete
+current_task: 4

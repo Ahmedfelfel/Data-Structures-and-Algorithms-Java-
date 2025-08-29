@@ -1,0 +1,26 @@
+type: edu
+custom_name: Hello World
+files:
+  - name: src/Main.java
+    visible: true
+    placeholders:
+      - offset: 70
+        length: 27
+        placeholder_text: // Write your solution here
+        initial_state:
+          length: 27
+          offset: 70
+        initialized_from_dependency: false
+        encrypted_possible_answer: hPCGMtq5LjZmA9ye76lrFOg8SvX7oSmCHQV4ZRjrAE21lUx9hxJX7R5gWE0K0UB6
+        selected: false
+        status: Solved
+    learner_created: false
+  - name: test/TestMainClass.java
+    visible: false
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 01 Aug 2025 11:39:35 UTC"
+record: -1
+solution_hidden: true

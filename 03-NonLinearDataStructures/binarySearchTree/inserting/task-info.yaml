@@ -1,0 +1,62 @@
+type: edu
+custom_name: Inserting A New Key
+files:
+  - name: src/BinarySearchTree.java
+    visible: true
+    placeholders:
+      - offset: 340
+        length: 341
+        placeholder_text: "/* TODO: implement BST inserting here */"
+        initial_state:
+          length: 40
+          offset: 340
+        initialized_from_dependency: false
+        encrypted_possible_answer: mMh+c2TiMG5Xot9J/v3bnYy4KfVgouowS7U34TIK5dz+27sfMJF8qV/85LiqOJI5qc9frvDEN5Ki3gGr9dx+r3CL3JHsxGjKyEEaP9qxbNQKB508xZb5R0NDb/wr3krZcjRJiTiiW4eAhaPEOW/GLhcc9jhnz1hmOMPNSvrVMW0wdGiWa7dF5pJHKuWXKyS5D288yF1oL4rPb0AClRjfH+GfkeVdcNJYKMWdLVMY3G5CYe+V4At35ILFiPRnKdXrHVfgYHDHJkifKDVhbR9h9kerwUDWa576xKlxsEwNrKDQ0r43ywaPG3hAq7Xl+MDN4eQPjmO0VlF4IYa0Q/FNhCexLkrvX6fEpcnSjTHB37fX7wBTFr5rv1FCZfKOjQhOCGG/R4W27go5acwc6LQ3qFEF2g5YrWXXT6IA9+fYuEnPv7rencGdF3OIjdMk8imo/BAg5gwLORp+hFyGZObsBXVYwmGyOlLOQXgnT7vH7T+aKvMAxeE0zuXU1JYvjPIG
+        selected: true
+        status: Solved
+        student_answer: |-
+          /* TODO: implement BST inserting here */
+                  if (t==null)
+                  {
+                      t = new BinaryTreeNode<K>();
+                      t.key=key;
+                  } else if (t.key.compareTo(key)>0)
+                  {
+                      t.left=add(t.left,key);
+                  }
+               else if (t.key.compareTo(key)<0)
+                  {
+                  t.right=add(t.right,key);
+                  }
+               return t;
+      - offset: 742
+        length: 121
+        placeholder_text: "/* TODO: implement a binary tree node */"
+        dependency:
+          section: 03-NonLinearDataStructures
+          lesson: binarySearchTree
+          task: binaryTreeNode
+          file: src/BinarySearchTree.java
+          placeholder: 1
+        initial_state:
+          length: 40
+          offset: 441
+        initialized_from_dependency: true
+        encrypted_possible_answer: mKxJPzeU6s9OP1TmvFh4+x+yOG683oJyNE0gBcSmb0Am8dfHVA+jRA76fQNCSWXVgJI13UDY+Tx7UWg28YAwz2PW5FtYLom6ld69oWUL7Dw=
+        selected: false
+        status: Solved
+        student_answer: |
+          /* TODO: implement a binary tree node */
+                  K key;
+                  BinaryTreeNode<K> left;
+                  BinaryTreeNode<K> right;
+        is_visible: false
+    learner_created: false
+  - name: test/TestBST.java
+    visible: false
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 26 Aug 2025 14:21:18 UTC"
+record: 20

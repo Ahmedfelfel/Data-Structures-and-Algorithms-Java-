@@ -1,0 +1,42 @@
+type: edu
+custom_name: Selection Sort
+files:
+  - name: src/SelectionSort.java
+    visible: true
+    placeholders:
+      - offset: 102
+        length: 55
+        placeholder_text: "/* TODO: implement the selection sort algorithm here */"
+        initial_state:
+          length: 55
+          offset: 102
+        initialized_from_dependency: false
+        encrypted_possible_answer: EArMiPGxEcesFOBpcEhsHSVeq65fJL//0ePO9EllYspdPPR2CjQQHeZrtegHad0WP1J6kslDwSbRoT95SvY6BxaaJfLrLdCa7HtuL6jDg7MXAigHzUm0jkOA6LDRfI0/CeZpCK2skSynXq7EvwnSegjYdvJZHYWWuafLLxHk5+V5+9idSg53fBz+jN/nI7Y/g22xWwJiuD0wPzcLKDq7Jo9NIsKtCoYWUjMSp1Ee/L5hMYJMb922YOp3T8w5otAl3q8rlkLhZjJGnc30ADO6FnYwAL/hjIuP9Mo9ME9TKGmE5uLcD4EiKvpP04G72NnSk/sNX06tyJMkTswQESUFLvvCBUdYNhBlvWXebDzpKLQ=
+        selected: false
+        status: Solved
+      - offset: 635
+        length: 31
+        placeholder_text: /* implement swapping method */
+        dependency:
+          section: 01-DivideAndConquer
+          lesson: selectionSort
+          task: swapping
+          file: src/SelectionSort.java
+          placeholder: 1
+        initial_state:
+          length: 31
+          offset: 231
+        initialized_from_dependency: true
+        encrypted_possible_answer: +695kYqoKYoxlI9F0eHWAXjmtkMiNbEvj/cds67ZhnL0XxY3twnBxXlsMkhLaDyp+tXifJhVoyAbqdOchCtEsDf/MePXTLwoj8arNT+YZjY=
+        selected: false
+        status: Solved
+        is_visible: false
+    learner_created: false
+  - name: src/Sorter.java
+    visible: false
+    learner_created: false
+  - name: test/TestSelectionSort.java
+    visible: false
+    learner_created: false
+status: Solved
+record: -1

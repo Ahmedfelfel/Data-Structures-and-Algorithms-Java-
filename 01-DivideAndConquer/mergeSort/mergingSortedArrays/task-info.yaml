@@ -1,0 +1,29 @@
+type: edu
+custom_name: Merging Sorted Arrays
+files:
+  - name: src/MergeSort.java
+    visible: true
+    placeholders:
+      - offset: 408
+        length: 32
+        placeholder_text: // Implement merging method here
+        initial_state:
+          length: 32
+          offset: 408
+        initialized_from_dependency: false
+        encrypted_possible_answer: JhxYv0IqXhlkRTdTbGPOE0PoUR9ZwA/L7ljKpYvoqt5LroxZbMcAP92fs1tUN6Mu/fH/0QZrWDx2cBWoridO26DESrQt0ex3ugIjPy6yl9Wllvd5dYGQfpN2x1ai/iHuhe8nDw6zrAaxSbJ0pbzJwPG8p5136QWVbaA+58ZOyThy2nTOSb9e0Gn00sAC93Hc5OWAwa4L/GO9/FPwlEhKN0yzr6/d5/Fb1AgtcCV7/fyMWGC7P1cRY3GKwLb4PKGiis9H/z3k4V5egbWaXvbBMwI7T2q5uD6kEO/2Q17iM3CIzaB/xoMR2fHb4iPVTxfvlkbiPx+KSLODdIIhjsxzPcvZd6H1VwSceIpkDEPpDngda2aQPtcQmmoXZFgJZXPgpoGs2n9tBzBpSEbQVOwxUf0U3XmRz6QzeK1wG36lKeHzcuzgZEVy0BGpoii4Il3pWrtdJf54192oFe6K0blyPtldDyQhZZqZl37xpXoTVAWDPrtetKdcH39MvkWTBk9ux9TaD6pPkXp/EV1tVbH+Md8t5zHQOJHsjhUIzbf2EZIoqV3PKm9PKfrIgGkxcP3S+2QY0vbieyTCCn3NycFd+YOhDdLjEYa47NtpG/zTgmMEKmhFa6HVM3VscLY50g7W2yXe34X7lXdCRy0oj0Aq33R1s6qlH56BA+sRz1QCth68Yaj8wmbmQrj63Dif8hSwIk2GrAbRgbW7wo4cU6bad7mk66Yv6PaWiHDbsciqGp/0W64m4rHTjbrwzhqkjUK8
+        selected: false
+        status: Solved
+        student_answer: // Implement merging method here
+    learner_created: false
+  - name: test/TestMerging.java
+    visible: false
+    learner_created: false
+  - name: src/Sorter.java
+    visible: true
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 20 Aug 2025 13:06:08 UTC"
+record: 5

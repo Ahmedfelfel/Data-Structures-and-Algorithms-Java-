@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestMergeSort" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-08-20T13:18:14" hostname="AHMEDFELFEL-LAP" time="2.063">
+  <properties/>
+  <testcase name="testMerging" classname="TestMergeSort" time="0.062"/>
+  <testcase name="testLargeSorting" classname="TestMergeSort" time="1.987"/>
+  <testcase name="testSorting" classname="TestMergeSort" time="0.01"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

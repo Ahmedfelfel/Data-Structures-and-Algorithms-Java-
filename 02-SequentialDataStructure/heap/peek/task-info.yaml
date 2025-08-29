@@ -1,0 +1,112 @@
+type: edu
+custom_name: Peeking
+files:
+  - name: src/Heap.java
+    visible: true
+    placeholders:
+      - offset: 224
+        length: 178
+        placeholder_text: "/* TODO: initialize all fields in the class and allocate arr[]\
+      \ upto the capacity */"
+        dependency:
+          section: 02-SequentialDataStructure
+          lesson: heap
+          task: push
+          file: src/Heap.java
+          placeholder: 1
+        initial_state:
+          length: 83
+          offset: 224
+        initialized_from_dependency: true
+        encrypted_possible_answer: PuBFKiCRkKeQgQxqHtYoW3OtIjd3qLt57A4XxhOtT2XwqzPvp8zUoiCIL65pqISE3MDHcAILpPdoohl3kuWVrRn12qB3To1pTd3z8qESIdcJGSlnMPCCQl3e/6xgiGDa
+        selected: false
+        status: Solved
+        student_answer: |-
+          /* TODO: initialize all fields in the class and allocate arr[] upto the capacity */
+                this.capacity = capacity;
+                size=0;
+                this.arr = new ArrayList<>(this.capacity);
+        is_visible: false
+      - offset: 443
+        length: 395
+        placeholder_text: "/* TODO: implement the sift up algorithm here */"
+        dependency:
+          section: 02-SequentialDataStructure
+          lesson: heap
+          task: push
+          file: src/Heap.java
+          placeholder: 2
+        initial_state:
+          length: 48
+          offset: 348
+        initialized_from_dependency: true
+        encrypted_possible_answer: Su1mWOalmfNyk9UWn+pI+HREOhMwfX7MsUjq3ZFslCxeHPlTeMo2bykEJobqaylmdYiKr2ZfOobRWS/oFHeWzSEXCO4J/IIqGbw7lD+JxrEHgs5nNUy7Vp1/D4QJUauzfVTCwRmH5nmFgRFIiDVsT+ndiYEhyXCVr+ncXuxJTjYVvEzG8xsEIofB+enmhEBHDa1NTro+6E+Qumzc/SlFVrTo8i8J75oZbPRxR3nP8DN4oP6jR5d/zIDKYx9dlAZt0RF3Gx7eazpodn1syrCZoGf1gAxAAIx9Xrcb7gmo0BlfqL4iPfwpMQXnkMAnxR54egnow+IZHFOodbttipasVDI0tKTzlySlhpB5oZw6ry2SqbSXRRbAOmV2tSGF3Km1G5kasHEHsFRPQeVo+CmIAG+nHioKgXOZv1kajoOMxpuCosXQHJMCZXzXfcq8dsfXdSwo6BPqTN/hrVfPMR+2ju/PlWAcYAei5FVnn0qXVP4=
+        selected: false
+        status: Solved
+        student_answer: |
+          /* TODO: implement the sift up algorithm here */
+                if (size == capacity) {
+                    enlarge();
+                }
+                arr.add(data);
+                size++;
+                int idx = size-1;
+                while (idx > 0 && arr.get(parent(idx)).compareTo(arr.get(idx)) > 0) {
+                    E temp = arr.get(parent(idx));
+                    arr.set(parent(idx), arr.get(idx));
+                    arr.set(idx, temp);
+                    idx=parent(idx);
+                }
+        is_visible: false
+      - offset: 870
+        length: 168
+        placeholder_text: "/* TODO: return the top element of the heap */"
+        initial_state:
+          length: 46
+          offset: 428
+        initialized_from_dependency: false
+        encrypted_possible_answer: qit1Uol6jbkCnOrKLijhWs3IRiZfeDHn2YdVDbhqW68=
+        selected: true
+        status: Solved
+        student_answer: |-
+          /* TODO: return the top element of the heap */
+                if (size == 0) {
+                    throw new NoSuchElementException("The heap is empty.");
+                }
+                return arr.get(0);
+      - offset: 1265
+        length: 301
+        placeholder_text: "/* TODO: enlarge by increasing/doubling the capacity, allocate\
+      \ a new array, and copy the original to the new one */"
+        dependency:
+          section: 02-SequentialDataStructure
+          lesson: heap
+          task: push
+          file: src/Heap.java
+          placeholder: 3
+        initial_state:
+          length: 115
+          offset: 701
+        initialized_from_dependency: true
+        encrypted_possible_answer: fDgEwCQweXqqR8CAsTrOpxtoaVZzXeq/cjLDlCoP3RHO1rayw3RJ2foWTtXyidye1+N3dyqeiNereYzpPj3zmivEoTFzl3jjDmxHxkBCXELvaSj2Z5+Km9bxlRtZV3YBSNXpSsjZf28nOZf3fh4PvdnT8nH2Hyr5SAtckfARPvtDpDHEnCHkatthp8Scgesg
+        selected: false
+        status: Solved
+        student_answer: |-
+          /* TODO: implement positioning calculation */
+                int newCapacity = this.capacity * 2;
+                ArrayList<E> newArr = new ArrayList<>(newCapacity);
+                for (int i = 0; i < this.capacity; i++) {
+                    newArr.add(this.arr.get(i));
+                }
+                this.capacity = newCapacity;
+                this.arr = newArr;
+        is_visible: false
+    learner_created: false
+  - name: test/TestHeap.java
+    visible: false
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 23 Aug 2025 23:17:15 UTC"
+record: 18

@@ -1,0 +1,34 @@
+type: edu
+custom_name: Binary Conversion
+files:
+  - name: src/Stack.java
+    visible: false
+    learner_created: false
+  - name: src/LinkedList.java
+    visible: false
+    learner_created: false
+  - name: src/AbstractList.java
+    visible: false
+    learner_created: false
+  - name: src/DecimalToBinary.java
+    visible: true
+    placeholders:
+      - offset: 424
+        length: 57
+        placeholder_text: "/* TODO: modulo and divide by 2 (see task descirption) */"
+        initial_state:
+          length: 57
+          offset: 424
+        initialized_from_dependency: false
+        encrypted_possible_answer: 3Z1hwlx40l+tNoXK8q8cg74eZj6PBahJaOSs5Z17fjd6/QsCBlDMQq3mJCo3TBHL8OG4hBvppDYBujuJWkb3smjhr5f+x+wa3Hbdud/YAsXeuLekFej9milkJMDXDdVTCnEeL9+vsf9Lr01vWNYfFQ==
+        selected: true
+        status: Solved
+    learner_created: false
+  - name: test/TestMainClass.java
+    visible: false
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 23 Aug 2025 11:40:52 UTC"
+record: -1

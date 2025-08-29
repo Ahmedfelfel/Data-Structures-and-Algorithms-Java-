@@ -1,0 +1,37 @@
+type: edu
+custom_name: Hello You
+files:
+  - name: src/Main.java
+    visible: true
+    placeholders:
+      - offset: 97
+        length: 76
+        placeholder_text: /* read the name of the user */
+        initial_state:
+          length: 31
+          offset: 97
+        initialized_from_dependency: false
+        encrypted_possible_answer: REJIPzAFH9MQGMD7itRaX6Mxnr3/DX3XbK/5QPmXiRo8YawCOWZ3BvCa/nHjAiVFUGhffx8lTklLPfJWHkwbKgBkCfY5mNiX7gX6Tkr6mpQ=
+        selected: true
+        status: Solved
+      - offset: 217
+        length: 64
+        placeholder_text: "/* print out \"Hello, \" followed by the name (see description)\
+      \ */"
+        initial_state:
+          length: 64
+          offset: 136
+        initialized_from_dependency: false
+        encrypted_possible_answer: hPCGMtq5LjZmA9ye76lrFGht4mKvneGseFH2J0SLyl9ETAslQzFxp7H/ig3HRUbD
+        selected: false
+        status: Solved
+    learner_created: false
+  - name: test/TestMainClass.java
+    visible: false
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 01 Aug 2025 11:52:07 UTC"
+record: -1
+solution_hidden: true

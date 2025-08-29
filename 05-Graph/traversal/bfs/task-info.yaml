@@ -1,0 +1,77 @@
+type: edu
+custom_name: Breadth-First Search
+files:
+  - name: src/Graph.java
+    visible: true
+    placeholders:
+      - offset: 222
+        length: 97
+        placeholder_text: "/* TODO: implement an adjacency list (map) creation */"
+        dependency:
+          section: 05-Graph
+          lesson: representation
+          task: adjacencyList
+          file: src/Graph.java
+          placeholder: 1
+        initial_state:
+          length: 54
+          offset: 222
+        initialized_from_dependency: false
+        encrypted_possible_answer: m+055IC3JZJAatcAlOuMqOpMdSnog95jbrTvGKfiM/+CfL0FDVcvyhu7+DPEElHA
+        selected: true
+        status: Solved
+      - offset: 551
+        length: 84
+        placeholder_text: "/* TODO: create a directed edge */"
+        dependency:
+          section: 05-Graph
+          lesson: representation
+          task: adjacencyList
+          file: src/Graph.java
+          placeholder: 2
+        initial_state:
+          length: 34
+          offset: 508
+        initialized_from_dependency: false
+        encrypted_possible_answer: c82/ZO5ZdBhYVdPZ8l3+LwTVk36NL/6regC6wQFAxazmbX9Fm5tnxodMSHuJVfm4
+        selected: true
+        status: Solved
+      - offset: 694
+        length: 90
+        placeholder_text: "/* TODO: returns the adjacency list (map) of the node */"
+        dependency:
+          section: 05-Graph
+          lesson: representation
+          task: adjacencyList
+          file: src/Graph.java
+          placeholder: 3
+        initial_state:
+          length: 56
+          offset: 601
+        initialized_from_dependency: false
+        encrypted_possible_answer: O9VotFX89gLCiPsuNaQUVJMqUwlp8OkCAXDszXgM42Q=
+        selected: true
+        status: Solved
+      - offset: 1506
+        length: 387
+        placeholder_text: "/* TODO: for each neighbor of srcNode, add to queue if it was\
+      \ not visited */"
+        initial_state:
+          length: 76
+          offset: 1299
+        initialized_from_dependency: false
+        encrypted_possible_answer: 9WIGihaPZGNkzDDxBqYVoYcdxF5SzyAzkl2JYBSFoPKl4kQ8oTfkMTP6cvFfZNTIVk9Kq8rmVTonBTEkc/Kgh9Yr0kuAb3FuyRfGV8sXWER5C9LvoDP62j3Gl97F/eQie2UVov2HaGrCqirXSHKDgUXKHYAGLdjfaWePIhejlIX97ZV+NKmT5sdUXlH4GrNX9eunSU6EkgsmOUV+Ev6Kdvw2tMOWe+kDXy6Vl7EWDMdyEwLEJYWSI0Z98Td1xuWdVTYllsa1WbkFoaOOBLPo4zgelaYANHp0qyHbAbdBRdc2XzaS7kbJrLEeBYT8nSsE3XX9PwRiQw0BrJTZ9bU3nihqzFrgrHPX9vTQwmzvtn6gjEZJK+LeVNZHgq55y78DegtH6xRxUvReo4fkhemDMKsO+hnNOA92nGKQEsqqcW1LjPT1AyBl5bmbPMkAY++qT8Z6FZgwgKxN8CUrlZ3JT7X0A0YIWxSRr22qqLHhAtbmk8P6RgT8IwNkxzyBg2uC/Mva/M255ufngSG4AIQMiKgGdBPD71NWeAQQDj9wuWU=
+        selected: true
+        status: Solved
+    learner_created: false
+  - name: test/TestGraphTraversal.java
+    visible: false
+    learner_created: false
+  - name: src/GraphEdge.java
+    visible: true
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 29 Aug 2025 17:01:46 UTC"
+record: -1

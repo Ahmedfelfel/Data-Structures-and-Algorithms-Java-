@@ -1,0 +1,85 @@
+type: edu
+custom_name: Dijkstra's Shortest Path
+files:
+  - name: src/Graph.java
+    visible: true
+    placeholders:
+      - offset: 217
+        length: 97
+        placeholder_text: "/* TODO: implement an adjacency list (map) creation */"
+        dependency:
+          section: 05-Graph
+          lesson: representation
+          task: adjacencyList
+          file: src/Graph.java
+          placeholder: 1
+        initial_state:
+          length: 54
+          offset: 217
+        initialized_from_dependency: false
+        encrypted_possible_answer: m+055IC3JZJAatcAlOuMqOpMdSnog95jbrTvGKfiM/+CfL0FDVcvyhu7+DPEElHA
+        selected: true
+        status: Solved
+      - offset: 546
+        length: 84
+        placeholder_text: "/* TODO: create a directed edge */"
+        dependency:
+          section: 05-Graph
+          lesson: representation
+          task: adjacencyList
+          file: src/Graph.java
+          placeholder: 2
+        initial_state:
+          length: 34
+          offset: 503
+        initialized_from_dependency: false
+        encrypted_possible_answer: c82/ZO5ZdBhYVdPZ8l3+LwTVk36NL/6regC6wQFAxazmbX9Fm5tnxodMSHuJVfm4
+        selected: true
+        status: Solved
+      - offset: 689
+        length: 90
+        placeholder_text: "/* TODO: returns the adjacency list (map) of the node */"
+        dependency:
+          section: 05-Graph
+          lesson: representation
+          task: adjacencyList
+          file: src/Graph.java
+          placeholder: 3
+        initial_state:
+          length: 56
+          offset: 596
+        initialized_from_dependency: false
+        encrypted_possible_answer: O9VotFX89gLCiPsuNaQUVJMqUwlp8OkCAXDszXgM42Q=
+        selected: true
+        status: Solved
+      - offset: 1329
+        length: 1317
+        placeholder_text: "/* TODO: implement the Dijkstra's shortest path algorithm */"
+        initial_state:
+          length: 60
+          offset: 1202
+        initialized_from_dependency: false
+        encrypted_possible_answer: ps8065qUY7IzFlczHPJH4tTNpWO+b+HODk5so4JIlGDYPbdLnrTNg8OINnswjBjHA05kRfVj4lBgZLOXHMaKxxU2+qNyBKEZ6CXao2L5fKU98UpIi2pUCW9JatkJvnG/laTq7N+CMVhOkmtxVfm6ULxZ/X/88l4Ow1N9WJB+8DcRaKko3ussN7GRnk8t69p8ABOL608FJfwHMHwLLornMbrotPWWIkE72XchZ4508xunaqKN+WE1y+wg25mpuaSPQ78xzDNDcpIvu+XaUNW1WawPKMZ6uICpiWZvxXsZaw56c0cwaJ7BEp7O7NoWl+UjxmszCAVZCzjS9MuCMd3bC95CXOLWYk2dZRB1U+h4B+DT/RqlEyZ7YArtAKVNMm4B0gdrzHQLJhOXzeto3PgEw5JOBcOvROPXtbW0C3Ey+idoE6E4jR1UBZOj6Ie6rq6cSG3e5UUbeCEdN5XOs6JphtJoDxpCza46BjnG+sMT5fnQijnk79vHxtgx0WhOptJKOjHHdop0y+JIqewdVzHh4zfJn1N8AgY51GM8iCm/qHy9L7mWMuITED+VZdToyYk78i1L2tmgvUuJCNDCbpcroYb40NbMyeUE5iitgAV0c8oBBA0j/WId9frhgZmOcJB2mdYcRtCr7aP8qOanJeNv0EYbGUoqsHLmGuQok8aoGgVcJi23t3PrtlHK8LOODYRNjNjx7npEk7hp+jHnBTiXxAHDl6jOUc0PcN+iWTePe7pfRPZ32ikQtOxOWy6Is6vfNqewqsx9UsDi08JWh5urh4AN7SZLq+ojtVr+H5plrNJSVmud/qxc5h9R7ifVnEoirLXCvW3bz74sOpZEhObonxysp9mpwlZSulj7ume2bfH2IQER6FlCGiM3GbnoflwHc7TGWrrYBqSYBCRV6TXM/2KlnWlzdRgv5tBaPa9x4+LvRMF3Pl6gBkekcxOhWvzVLfxUN3Myka/gF2pRQnO/E+X6O45JBK/ycHSaqLDaamuzxSEB5D8fXXxug9vahgK0a1poMvSJNOqYJg2he9p4OphHLgEwn21CJmS5a/0WkQCA97/DU9eAUPIFd1ZJtxtCvbaOog8fak1e1th0tAxpR/I676W5t25ayPwSB7f0Yh3nwn903nD1YtO6JLL+pmDknuXmAt60gQovIgdxA4G3+f951vTg3JFbphY/pleKA2qQmMHt5ZI8Ad7wigUfMxWHb/xixWGgPs2VZNqwtdfRZQfyO8ftoehR1uG8Ej5j3V4V2pSKO+46kSVWjoBWxHQkmtKDTFTJdqGAwX1IBT5JawJCXU16Hh5SSGd9xa3foEA=
+        selected: true
+        status: Solved
+    learner_created: false
+  - name: test/TestGraphTraversal.java
+    visible: false
+    learner_created: false
+  - name: src/GraphEdge.java
+    visible: true
+    learner_created: false
+  - name: src/GraphDistance.java
+    visible: true
+    learner_created: false
+  - name: src/IntegerGraph.java
+    visible: true
+    learner_created: false
+  - name: src/DistanceInfo.java
+    visible: true
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 29 Aug 2025 17:24:44 UTC"
+record: -1

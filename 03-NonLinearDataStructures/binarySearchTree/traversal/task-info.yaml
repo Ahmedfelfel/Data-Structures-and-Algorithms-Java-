@@ -1,0 +1,116 @@
+type: edu
+custom_name: Traversal
+files:
+  - name: src/BinarySearchTree.java
+    visible: true
+    placeholders:
+      - offset: 408
+        length: 341
+        placeholder_text: "/* TODO: implement BST inserting here */"
+        dependency:
+          section: 03-NonLinearDataStructures
+          lesson: binarySearchTree
+          task: inserting
+          file: src/BinarySearchTree.java
+          placeholder: 1
+        initial_state:
+          length: 40
+          offset: 408
+        initialized_from_dependency: true
+        encrypted_possible_answer: mMh+c2TiMG5Xot9J/v3bnYy4KfVgouowS7U34TIK5dz+27sfMJF8qV/85LiqOJI5qc9frvDEN5Ki3gGr9dx+r3CL3JHsxGjKyEEaP9qxbNQKB508xZb5R0NDb/wr3krZcjRJiTiiW4eAhaPEOW/GLhcc9jhnz1hmOMPNSvrVMW0wdGiWa7dF5pJHKuWXKyS5D288yF1oL4rPb0AClRjfH+GfkeVdcNJYKMWdLVMY3G5CYe+V4At35ILFiPRnKdXrHVfgYHDHJkifKDVhbR9h9kerwUDWa576xKlxsEwNrKDQ0r43ywaPG3hAq7Xl+MDN4eQPjmO0VlF4IYa0Q/FNhCexLkrvX6fEpcnSjTHB37fX7wBTFr5rv1FCZfKOjQhOCGG/R4W27go5acwc6LQ3qFEF2g5YrWXXT6IA9+fYuEnPv7rencGdF3OIjdMk8imo/BAg5gwLORp+hFyGZObsBXVYwmGyOlLOQXgnT7vH7T+aKvMAxeE0zuXU1JYvjPIG
+        selected: false
+        status: Solved
+        student_answer: |-
+          /* TODO: implement BST inserting here */
+                  if (t==null)
+                  {
+                      t = new BinaryTreeNode<K>();
+                      t.key=key;
+                  } else if (t.key.compareTo(key)>0)
+                  {
+                      t.left=add(t.left,key);
+                  }
+               else if (t.key.compareTo(key)<0)
+                  {
+                  t.right=add(t.right,key);
+                  }
+               return t;
+        is_visible: false
+      - offset: 1266
+        length: 44
+        placeholder_text: "/* TODO: implement the preorder traversal */"
+        initial_state:
+          length: 44
+          offset: 965
+        initialized_from_dependency: false
+        encrypted_possible_answer: jVeBU2xO0AF0vLbAAmHZcs8ZsgwE0etr4DjOcV3dHiybPiqsDSjCxOyALumKtFxYS52ieS7aFpS9Ocbo6RQ4Cgr4NtyPqPs4UCNx5u3hPMtWtjkk87uB5QXKeWtvz+TQbREvhDuBosCYmOdELocZzHuDbTEUebHffbtuX2cPyEOguzDF0im5P6JKgBDA7uE1YCEW2OG92+WSyqMAXtesZA==
+        selected: false
+        status: Solved
+        student_answer: "/* TODO: implement the preorder traversal */"
+      - offset: 1555
+        length: 199
+        placeholder_text: "/* TODO: implement the inorder traversal */"
+        initial_state:
+          length: 43
+          offset: 1096
+        initialized_from_dependency: false
+        encrypted_possible_answer: jVeBU2xO0AF0vLbAAmHZcmAH2j6Q1FxadDlkooZQnT6z21dPei0IOylZbwZrc4vCQ/tWoOwzK7jlp9mw3QxUw8UJk8JA7jBPzN/kMSLsBIfBwH73QsQFPqkxRnxid5GGww1dqafUdK8h5Y3UgYZjpMfuIMoLOo3q4EQVBUVgrxNJi6sYKwEUFpuV57xnnOZhzDsAdgLHt2qLZOPcA2f/zA==
+        selected: true
+        status: Solved
+        student_answer: |-
+          /* TODO: implement the inorder traversal */
+                  if(t!=null)
+                  {
+                      inorder(t.left,processor);
+                      processor.accept(t.key);
+                      inorder(t.right,processor);
+                  }
+      - offset: 1843
+        length: 205
+        placeholder_text: "/* TODO: implement the postorder traversal */"
+        initial_state:
+          length: 45
+          offset: 1228
+        initialized_from_dependency: false
+        encrypted_possible_answer: jVeBU2xO0AF0vLbAAmHZctw1cBWlYsK6GnaRc1ZME3mZ72UHvTrsKMmNfd892/EGfZdayO8tBqSiN685AiCwz1KwPYkZdbM4ZgTDmZHJ6AikJZZPtu4yqVKZ/VlspsxRipqqRzc8gULXkr5rehIbfGgtrx/Meu8DfPPW5EtRN8wlxs5oEkzSdZqnyrJlhvqZ/NSxByXGN34hE/l8cxZceg==
+        selected: true
+        status: Solved
+        student_answer: |-
+          /* TODO: implement the postorder traversal */
+                  if(t!=null)
+                  {
+                      postorder(t.left,processor);
+                      postorder(t.right,processor);
+                      processor.accept(t.key);
+                  }
+      - offset: 2109
+        length: 121
+        placeholder_text: "/* TODO: implement a binary tree node */"
+        dependency:
+          section: 03-NonLinearDataStructures
+          lesson: binarySearchTree
+          task: inserting
+          file: src/BinarySearchTree.java
+          placeholder: 2
+        initial_state:
+          length: 40
+          offset: 1334
+        initialized_from_dependency: true
+        encrypted_possible_answer: mKxJPzeU6s9OP1TmvFh4+x+yOG683oJyNE0gBcSmb0Am8dfHVA+jRA76fQNCSWXVgJI13UDY+Tx7UWg28YAwz2PW5FtYLom6ld69oWUL7Dw=
+        selected: false
+        status: Solved
+        student_answer: |
+          /* TODO: implement a binary tree node */
+                  K key;
+                  BinaryTreeNode<K> left;
+                  BinaryTreeNode<K> right;
+        is_visible: false
+    learner_created: false
+  - name: test/TestBST.java
+    visible: false
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 26 Aug 2025 14:40:14 UTC"
+record: 21

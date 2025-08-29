@@ -1,0 +1,9 @@
+type: framework
+custom_name: Binary Search Tree
+content:
+  - binaryTreeNode
+  - inserting
+  - traversal
+  - keyValueMapping
+  - searching
+current_task: 4

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="#JAVA_INTERNAL" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/00-Recap/recap/helloWorld" />
+            <option value="$PROJECT_DIR$/00-Recap/recap/helloYou" />
+            <option value="$PROJECT_DIR$/00-Recap/recap/recursiveFibonacci" />
+            <option value="$PROJECT_DIR$/01-DivideAndConquer/mergeSort/task" />
+            <option value="$PROJECT_DIR$/01-DivideAndConquer/selectionSort/task" />
+            <option value="$PROJECT_DIR$/02-SequentialDataStructure/heap/task" />
+            <option value="$PROJECT_DIR$/02-SequentialDataStructure/linkedList/task" />
+            <option value="$PROJECT_DIR$/02-SequentialDataStructure/queue/task" />
+            <option value="$PROJECT_DIR$/02-SequentialDataStructure/stack/task" />
+            <option value="$PROJECT_DIR$/03-NonLinearDataStructures/binarySearchTree/task" />
+            <option value="$PROJECT_DIR$/04-DynamicProgramming/fibonacci/task" />
+            <option value="$PROJECT_DIR$/04-DynamicProgramming/knapsack/task" />
+            <option value="$PROJECT_DIR$/05-Graph/representation/adjacencyList" />
+            <option value="$PROJECT_DIR$/05-Graph/representation/edgeList" />
+            <option value="$PROJECT_DIR$/05-Graph/shortestPath/bellmanFord" />
+            <option value="$PROJECT_DIR$/05-Graph/shortestPath/dijkstra" />
+            <option value="$PROJECT_DIR$/05-Graph/traversal/task" />
+            <option value="$PROJECT_DIR$/common" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

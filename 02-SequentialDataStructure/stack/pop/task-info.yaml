@@ -1,0 +1,54 @@
+type: edu
+custom_name: Popping
+files:
+  - name: src/Stack.java
+    visible: true
+    placeholders:
+      - offset: 130
+        length: 60
+        placeholder_text: "/* TODO: implement stack's push() */"
+        dependency:
+          section: 02-SequentialDataStructure
+          lesson: stack
+          task: push
+          file: src/Stack.java
+          placeholder: 1
+        initial_state:
+          length: 36
+          offset: 130
+        initialized_from_dependency: true
+        encrypted_possible_answer: x//qtwH41m0tQYE2j0IBHw==
+        selected: false
+        status: Solved
+        student_answer: |-
+          /* TODO: implement stack's push() */
+                  addFirst(data);
+        is_visible: false
+      - offset: 227
+        length: 57
+        placeholder_text: "/* TODO: implement pop() */"
+        initial_state:
+          length: 27
+          offset: 203
+        initialized_from_dependency: false
+        encrypted_possible_answer: 29RAbWKPw7eiuwUR+a3Bq81YGFlEu8u783SLjXlSDm0=
+        selected: true
+        status: Solved
+        student_answer: |-
+          /* TODO: implement pop() */
+                  return removeFirst();
+    learner_created: false
+  - name: src/LinkedList.java
+    visible: false
+    learner_created: false
+  - name: src/AbstractList.java
+    visible: false
+    learner_created: false
+  - name: test/TestStack.java
+    visible: false
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 23 Aug 2025 11:34:02 UTC"
+record: 13

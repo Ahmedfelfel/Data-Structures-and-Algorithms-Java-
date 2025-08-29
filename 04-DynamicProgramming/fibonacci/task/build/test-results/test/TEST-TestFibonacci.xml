@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestFibonacci" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-08-28T18:45:35" hostname="AHMEDFELFEL-LAP" time="0.151">
+  <properties/>
+  <testcase name="testFibonacciCorrectness()" classname="TestFibonacci" time="0.034"/>
+  <testcase name="[1] 50" classname="TestFibonacci" time="0.036"/>
+  <testcase name="[2] 100" classname="TestFibonacci" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

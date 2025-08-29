@@ -1,0 +1,49 @@
+type: edu
+custom_name: Merge Sort
+files:
+  - name: src/MergeSort.java
+    visible: true
+    placeholders:
+      - offset: 119
+        length: 89
+        placeholder_text: // Implement the merge sort method which recursively divides
+          array and invoke the merging
+        initial_state:
+          length: 89
+          offset: 119
+        initialized_from_dependency: false
+        encrypted_possible_answer: TM8FkVJQq+t3yGUSvhlB1Dp01brY4Y6L0RfNzMv0adrdTyZbSPh1O95E9DE2xPeS8PRUFj2ClWYXkYKQaVETKOTJ0o6rq/kTxFYL7z9AHLGBTLLGRpR5SAZcqOrzlUXpEoHNiVF74Kr8EYtnGx8eMNRh1iSsB+zn44zX8qaCPytkvwbpX4rBXrY5FfKby0YN7WEC80e5HNjPKOs/f+wp+wnYi00OAMuXkZF+mlABcfx5FzCZFgvUXhNtiBJiHyrb
+        selected: false
+        status: Solved
+        student_answer: // Implement the merge sort method which recursively divides array
+          and invoke the merging
+      - offset: 637
+        length: 976
+        placeholder_text: // Implement merging method here
+        dependency:
+          section: 01-DivideAndConquer
+          lesson: mergeSort
+          task: mergingSortedArrays
+          file: src/MergeSort.java
+          placeholder: 1
+        initial_state:
+          length: 32
+          offset: 438
+        initialized_from_dependency: true
+        encrypted_possible_answer: JhxYv0IqXhlkRTdTbGPOE0PoUR9ZwA/L7ljKpYvoqt5LroxZbMcAP92fs1tUN6Mu/fH/0QZrWDx2cBWoridO26DESrQt0ex3ugIjPy6yl9Wllvd5dYGQfpN2x1ai/iHuhe8nDw6zrAaxSbJ0pbzJwPG8p5136QWVbaA+58ZOyThy2nTOSb9e0Gn00sAC93Hc5OWAwa4L/GO9/FPwlEhKN0yzr6/d5/Fb1AgtcCV7/fyMWGC7P1cRY3GKwLb4PKGiis9H/z3k4V5egbWaXvbBMwI7T2q5uD6kEO/2Q17iM3CIzaB/xoMR2fHb4iPVTxfvlkbiPx+KSLODdIIhjsxzPcvZd6H1VwSceIpkDEPpDngda2aQPtcQmmoXZFgJZXPgpoGs2n9tBzBpSEbQVOwxUf0U3XmRz6QzeK1wG36lKeHzcuzgZEVy0BGpoii4Il3pWrtdJf54192oFe6K0blyPtldDyQhZZqZl37xpXoTVAWDPrtetKdcH39MvkWTBk9ux9TaD6pPkXp/EV1tVbH+Md8t5zHQOJHsjhUIzbf2EZIoqV3PKm9PKfrIgGkxcP3S+2QY0vbieyTCCn3NycFd+YOhDdLjEYa47NtpG/zTgmMEKmhFa6HVM3VscLY50g7W2yXe34X7lXdCRy0oj0Aq33R1s6qlH56BA+sRz1QCth68Yaj8wmbmQrj63Dif8hSwIk2GrAbRgbW7wo4cU6bad7mk66Yv6PaWiHDbsciqGp/0W64m4rHTjbrwzhqkjUK8
+        selected: false
+        status: Solved
+        student_answer: // Implement merging method here
+        is_visible: false
+    learner_created: false
+  - name: src/Sorter.java
+    visible: true
+    learner_created: false
+  - name: test/TestMergeSort.java
+    visible: false
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 20 Aug 2025 13:18:17 UTC"
+record: 6

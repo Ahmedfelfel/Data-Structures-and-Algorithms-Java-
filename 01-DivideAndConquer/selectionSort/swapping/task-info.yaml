@@ -1,0 +1,29 @@
+type: edu
+custom_name: Swapping
+files:
+  - name: src/SelectionSort.java
+    visible: true
+    placeholders:
+      - offset: 233
+        length: 31
+        placeholder_text: /* implement swapping method */
+        initial_state:
+          length: 31
+          offset: 233
+        initialized_from_dependency: false
+        encrypted_possible_answer: +695kYqoKYoxlI9F0eHWAXjmtkMiNbEvj/cds67ZhnL0XxY3twnBxXlsMkhLaDyp+tXifJhVoyAbqdOchCtEsDf/MePXTLwoj8arNT+YZjY=
+        selected: true
+        status: Solved
+        student_answer: /* implement swapping method */
+    learner_created: false
+  - name: test/TestSelectionSort.java
+    visible: false
+    learner_created: false
+  - name: src/Sorter.java
+    visible: false
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 01 Aug 2025 12:11:48 UTC"
+record: 1

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestHeap" tests="7" skipped="0" failures="0" errors="0" timestamp="2025-08-23T23:28:20" hostname="AHMEDFELFEL-LAP" time="0.376">
+  <properties/>
+  <testcase name="testPop()" classname="TestHeap" time="0.132"/>
+  <testcase name="testRight()" classname="TestHeap" time="0.063"/>
+  <testcase name="testLeft()" classname="TestHeap" time="0.014"/>
+  <testcase name="testPeek()" classname="TestHeap" time="0.043"/>
+  <testcase name="testPush()" classname="TestHeap" time="0.004"/>
+  <testcase name="testGrowableArray()" classname="TestHeap" time="0.005"/>
+  <testcase name="testParent()" classname="TestHeap" time="0.011"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

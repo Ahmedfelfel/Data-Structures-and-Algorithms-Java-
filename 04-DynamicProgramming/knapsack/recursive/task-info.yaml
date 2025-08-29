@@ -1,0 +1,63 @@
+type: edu
+custom_name: Recursive Solution
+files:
+  - name: src/Knapsack.java
+    visible: true
+    placeholders:
+      - offset: 148
+        length: 330
+        placeholder_text: "/* TODO: implement the algorithm just as in the task description\
+      \ */"
+        initial_state:
+          length: 67
+          offset: 148
+        initialized_from_dependency: false
+        encrypted_possible_answer: +D9mYe/+eSvpxqIoeYRgpnggWlDHJKkLpchzLgsBeYi69Y0m/w6zav+b4ohHVExUnIphQI+M8LtzJhd6X6StEWv+D9udkrsaHTEu++FH+HRXynOYRBRIE7jkuyFBMd5Mhst9QJYPiA1ZNBJziv2UovjHl1fMbCzp+nO6Fr7dzZIM+BiVP3PZk+WsWqk1vjshLruwkkl7Devk2OrE6wyCnFJKk6oDF8QtKlCxXML97cQqb+TDavRlBuBXuaTBoBCm5g971qvtvbowNOknRSFlgw0LU1QCXt41lBD0qJulNUzYYU3poQjf7tRo+RF0hH6EACEe/wGeXgauK1Mmsc7GEJ58ocw9/l+flbhBsFaAqYJDRKLW6R/sJSyroDTRN1MR+FrcDpb18Y6PQM27VNv5e/ShTCfM2EPg1ucjPN6JQNjAgIW6Bsq9s7UNdL6GJJQi
+        selected: true
+        status: Solved
+        student_answer: |-
+          /* TODO: implement the algorithm just as in the task description */
+                  if (i<0 || capacity <=0)
+                      return 0;
+                  else if(items.get(i).weight>capacity)
+                      return solve(i-1,capacity);
+                  else
+                      return Math.max(items.get(i).value+solve(i-1,capacity-items.get(i).weight),solve(i-1,capacity));
+      - offset: 1010
+        length: 304
+        placeholder_text: "/* TODO: define an item object class */"
+        dependency:
+          section: 04-DynamicProgramming
+          lesson: knapsack
+          task: items
+          file: src/Knapsack.java
+          placeholder: 1
+        initial_state:
+          length: 39
+          offset: 756
+        initialized_from_dependency: true
+        encrypted_possible_answer: 1IWyKC8eBEEojU7GwtKt0eLB1UcZy2sSlCWaorVRXEcOSiZQtac/yQ3Q5IHEGZopP2peMA8Zz0sheQ1UZ+DXtIo2WgoT7TD4S5+vGP4yI9MI+9sadday8n3D4hVxgSTvIzohN6yCEPensLmsMxdbZ5qWiDyYj8Xtt+CqeXeNKaFshahuF1z4Y3t6AqrPGvq2z9oaetTBH1hUkJHIb3ugdrd6m8WMEGI/bRXsT5M02jis2NEyGxZbPSDh98D9UEGnLYoQ4fb4NoVKZkbfYMo52q+lt3KbZ5iEhl6G2NC36yE=
+        selected: false
+        status: Solved
+        student_answer: |2-
+        
+              /* TODO: define an item object class */
+                      String name;
+                      int weight;
+                      int value;
+                      public Item(String name,int weight,int value)
+                      {
+                          this.name=name;
+                          this.weight=weight;
+                          this.value=value;
+                      }
+        is_visible: false
+    learner_created: false
+  - name: test/TestKnapsack.java
+    visible: false
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 28 Aug 2025 20:26:32 UTC"
+record: 26

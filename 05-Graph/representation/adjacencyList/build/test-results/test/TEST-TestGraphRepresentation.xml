@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestGraphRepresentation" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-08-29T16:24:02" hostname="AHMEDFELFEL-LAP" time="0.071">
+  <properties/>
+  <testcase name="testNeighborsOf()" classname="TestGraphRepresentation" time="0.056"/>
+  <testcase name="testDataStructure()" classname="TestGraphRepresentation" time="0.011"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

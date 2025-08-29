@@ -1,0 +1,24 @@
+type: marketplace
+title: Data Structures and Algorithms (Java)
+language: English
+summary: |-
+  <p>This is a part of 977-120 Computer Programming Module taught at Digital Engineering, College of Computing, Prince of Songkla University, Phuket Campus.</p>
+  <p>This course is still in-progress, it is expected to cover these topics:</p>
+  <p>data structures; linked lists; stack; queue; trees; binary tree; binary search tree (BST); trie; heap; self-balancing BST; complexity analysis; algorithmic strategies; recursion; divide-and-conquer techniques; searching and sorting; greedy algorithms; dynamic programming; graph problems; shortest path; NP-completeness;</p>
+programming_language: Java
+content:
+  - 00-Recap
+  - 01-DivideAndConquer
+  - 02-SequentialDataStructure
+  - 03-NonLinearDataStructures
+  - 04-DynamicProgramming
+  - 05-Graph
+additional_files:
+  - name: common/src/main/java/org/jetbrains/academy/java/utils/CourseUtils.java
+  - name: common/build.gradle.kts
+  - name: build.gradle.kts
+  - name: gradle.properties
+  - name: settings.gradle.kts
+mode: Study
+feedback_link: https://plugins.jetbrains.com/plugin/25805-data-structures-and-algorithms-java-/reviews
+yaml_version: 4

@@ -1,0 +1,45 @@
+type: edu
+custom_name: Adjacency List
+files:
+  - name: src/Graph.java
+    visible: true
+    placeholders:
+      - offset: 214
+        length: 97
+        placeholder_text: "/* TODO: implement an adjacency list (map) creation */"
+        initial_state:
+          length: 54
+          offset: 214
+        initialized_from_dependency: false
+        encrypted_possible_answer: m+055IC3JZJAatcAlOuMqOpMdSnog95jbrTvGKfiM/+CfL0FDVcvyhu7+DPEElHA
+        selected: true
+        status: Solved
+      - offset: 533
+        length: 84
+        placeholder_text: "/* TODO: create a directed edge */"
+        initial_state:
+          length: 34
+          offset: 490
+        initialized_from_dependency: false
+        encrypted_possible_answer: c82/ZO5ZdBhYVdPZ8l3+LwTVk36NL/6regC6wQFAxazmbX9Fm5tnxodMSHuJVfm4
+        selected: true
+        status: Solved
+      - offset: 676
+        length: 90
+        placeholder_text: "/* TODO: returns the adjacency list (map) of the node */"
+        initial_state:
+          length: 56
+          offset: 583
+        initialized_from_dependency: false
+        encrypted_possible_answer: O9VotFX89gLCiPsuNaQUVJMqUwlp8OkCAXDszXgM42Q=
+        selected: true
+        status: Solved
+    learner_created: false
+  - name: test/TestGraphRepresentation.java
+    visible: false
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 29 Aug 2025 16:24:03 UTC"
+record: -1

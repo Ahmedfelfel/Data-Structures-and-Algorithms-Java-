@@ -1,0 +1,26 @@
+type: edu
+custom_name: Recursive Fibonacci
+files:
+  - name: src/Main.java
+    visible: true
+    placeholders:
+      - offset: 207
+        length: 41
+        placeholder_text: // implement the recursive Fibonacci here
+        initial_state:
+          length: 41
+          offset: 207
+        initialized_from_dependency: false
+        encrypted_possible_answer: mAXOGXWK7fgfmkrLyXVKfW7nxmJK34i64hoXQ5cu6FndTr8XNwHzNXYGqVGroV2ng5LE54pLhZKaNitx+p9VTA==
+        selected: true
+        status: Solved
+    learner_created: false
+  - name: test/TestMainClass.java
+    visible: false
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 01 Aug 2025 12:01:33 UTC"
+record: -1
+solution_hidden: true

@@ -1,0 +1,46 @@
+type: edu
+custom_name: Items
+files:
+  - name: src/Knapsack.java
+    visible: true
+    placeholders:
+      - offset: 51
+        length: 387
+        placeholder_text: "/* TODO: define an item object class */"
+        initial_state:
+          length: 39
+          offset: 161
+        initialized_from_dependency: false
+        encrypted_possible_answer: 1IWyKC8eBEEojU7GwtKt0eLB1UcZy2sSlCWaorVRXEcOSiZQtac/yQ3Q5IHEGZopP2peMA8Zz0sheQ1UZ+DXtIo2WgoT7TD4S5+vGP4yI9MI+9sadday8n3D4hVxgSTvIzohN6yCEPensLmsMxdbZ5qWiDyYj8Xtt+CqeXeNKaFshahuF1z4Y3t6AqrPGvq2z9oaetTBH1hUkJHIb3ugdrd6m8WMEGI/bRXsT5M02jis2NEyGxZbPSDh98D9UEGnLYoQ4fb4NoVKZkbfYMo52q+lt3KbZ5iEhl6G2NC36yE=
+        selected: true
+        status: Solved
+        student_answer: |-
+          {
+              private ArrayList<Item> items;
+          
+              public Knapsack() {
+          
+              }
+          
+              private static final class Item {
+                  /* TODO: define an item object class */
+                  String name;
+                  int weight;
+                  int value;
+                  public Item(String name,int weight,int value)
+                  {
+                      this.name=name;
+                      this.weight=weight;
+                      this.value=value;
+                  }
+              }
+          }
+    learner_created: false
+  - name: test/TestKnapsack.java
+    visible: false
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 28 Aug 2025 18:56:19 UTC"
+record: 25

@@ -1,0 +1,96 @@
+type: edu
+custom_name: Popping
+files:
+  - name: src/Heap.java
+    visible: true
+    placeholders:
+      - offset: 224
+        length: 178
+        placeholder_text: "/* TODO: initialize all fields in the class and allocate arr[]\
+      \ upto the capacity */"
+        dependency:
+          section: 02-SequentialDataStructure
+          lesson: heap
+          task: peek
+          file: src/Heap.java
+          placeholder: 1
+        initial_state:
+          length: 83
+          offset: 224
+        initialized_from_dependency: true
+        encrypted_possible_answer: PuBFKiCRkKeQgQxqHtYoW3OtIjd3qLt57A4XxhOtT2XwqzPvp8zUoiCIL65pqISE3MDHcAILpPdoohl3kuWVrRn12qB3To1pTd3z8qESIdcJGSlnMPCCQl3e/6xgiGDa
+        selected: false
+        status: Solved
+        is_visible: false
+      - offset: 443
+        length: 395
+        placeholder_text: "/* TODO: implement the sift up algorithm here */"
+        dependency:
+          section: 02-SequentialDataStructure
+          lesson: heap
+          task: peek
+          file: src/Heap.java
+          placeholder: 2
+        initial_state:
+          length: 48
+          offset: 348
+        initialized_from_dependency: true
+        encrypted_possible_answer: Su1mWOalmfNyk9UWn+pI+HREOhMwfX7MsUjq3ZFslCxeHPlTeMo2bykEJobqaylmdYiKr2ZfOobRWS/oFHeWzSEXCO4J/IIqGbw7lD+JxrEHgs5nNUy7Vp1/D4QJUauzfVTCwRmH5nmFgRFIiDVsT+ndiYEhyXCVr+ncXuxJTjYVvEzG8xsEIofB+enmhEBHDa1NTro+6E+Qumzc/SlFVrTo8i8J75oZbPRxR3nP8DN4oP6jR5d/zIDKYx9dlAZt0RF3Gx7eazpodn1syrCZoGf1gAxAAIx9Xrcb7gmo0BlfqL4iPfwpMQXnkMAnxR54egnow+IZHFOodbttipasVDI0tKTzlySlhpB5oZw6ry2SqbSXRRbAOmV2tSGF3Km1G5kasHEHsFRPQeVo+CmIAG+nHioKgXOZv1kajoOMxpuCosXQHJMCZXzXfcq8dsfXdSwo6BPqTN/hrVfPMR+2ju/PlWAcYAei5FVnn0qXVP4=
+        selected: false
+        status: Solved
+        is_visible: false
+      - offset: 870
+        length: 168
+        placeholder_text: "/* TODO: return the top element of the heap */"
+        dependency:
+          section: 02-SequentialDataStructure
+          lesson: heap
+          task: peek
+          file: src/Heap.java
+          placeholder: 3
+        initial_state:
+          length: 46
+          offset: 428
+        initialized_from_dependency: true
+        encrypted_possible_answer: qit1Uol6jbkCnOrKLijhWs3IRiZfeDHn2YdVDbhqW68=
+        selected: false
+        status: Solved
+        is_visible: false
+      - offset: 1072
+        length: 918
+        placeholder_text: "/* TODO: implement popping using sift down algorithm, which\
+      \ should remove the top of the heap and re-arrange nodes */"
+        initial_state:
+          length: 117
+          offset: 508
+        initialized_from_dependency: false
+        encrypted_possible_answer: iMP3mFNvQyybDNBkJRfglFzb6pszt+RH5yuvASHlA3x8AVIzNsEvD8DhDZiWhfdVC1lsFEQIYVdAB4QwIlWaZ1aB2vp4J3TME/8zacC//oSjnMkr7qkOsUBYD3yD0PgAyHdLzGx0u+Py+NrnYZvarp2KTUxXXAhmg+KG6KbeKIgXbCq+hWg3WN1kPc9O6EzcsoX1kJjOohI1f1chdzoLMAg6G5ZxAk/E5sOlqFSMQuQPyOddBhSfVLD8Bur5C0DE6jK0y5iz6c63Q8deQwfiXlNMFVdBR9u8d++ES2HiYSCB+AsnmQpv8ycEdr1Bo8e2LurdJHkeJQOLW2quZHyyKJadvIgANTAHAbPnrfbFo58SDpJwvfAwcWgiB1ovl2GKsvtUTsfBgKzA/u1gziRB+JXsbuGXUubQVm6XWJgHBtdsQ2obAZkkjZXEIRQOfLDm9UJwgb2aWCfW9go2SPbwYfyIPtmurr4HJHEPQK/r4WVbLbjW1ahN5Dth0eOVlp15cRcsYTIARF51miNZR/0FJ894nQsMmVJch+2se2MbW4A4L4f4QNe4d+07ShNVhuCvygHJsqOIKHnL8BWRGhsq9rw7Nvq9KmKvA6nqBNl+IoCFH4K6GWCj0Jfqjc7KNxUpQemdncHlQdPkyW992Ed/ZQ2YWLpZx9TwEMtgwn7I8/MEUaSXLth7TgEBsfcSrSGIzYMd7MrFPG3g/OOYzNI7NhjufNudw8rkg2JMppoQm9TdGfI9FogwZSjmt1tzsVvKil5sYjej4RD6NJeSTv9qnmTlT45YukQAvqHe31H3pb+x1lC20LyxLhXb2SeXlxU7Q6cITAMFuI81Aj2BJHT/GJicE33JAZWxMnvbuUAGwU8VXIUBbdq9XyU9dCsDM0cZNl54aZUn7LkTMEEQZS5ezPd0KudBKyEaw2OqNwMpe6ULvytZW5L0o3LICiJ7aekLswhQenrUoSt+3f1gx+YqWCoipGoEif+Ystx7mL3KiRuWdjJBZn3+XpVhy2DH8yggElSbhPFftPbenPas1z31+DmfQDgh8FjqbMgWv5Zab8U8XuJwNSGl2mdnJmh4rogy7ysv+t7a9Xg73FcGV8c1Kbf7SdGgmVxKtBiFpHx3XNYa6mm02yjx0dJbbGim4t1BxWc/hDcoVnaV8qXXMF3xCPEywEqpWndVEqPB06DhhXYkY04UOVp8mfCFdDwM3msGjWNom5M3/OV+D5Yw3AerTxdDkI/u8iJA+6AAbxb2hZCQloCZG9khx4jFOHXEvuQaB6zJuLJbrnwmwZ+GAmrNPX1eEuuQ/EmlLOnoJJJZA1pnfOaDgNgU2gjMnc0sH7nUXPWaPyM14nmbRePfNk9dOG58K8d9y4YdVNfD68ZzSM9j60BZBocH9cMvXm5b1oMLPO4QauGn2cLhOfq6qNlm+LwD31q9QpG8kTgy39yshcjQwxlWBxQ+CVdLlV3KfA9l
+        selected: true
+        status: Solved
+      - offset: 2217
+        length: 301
+        placeholder_text: "/* TODO: enlarge by increasing/doubling the capacity, allocate\
+      \ a new array, and copy the original to the new one */"
+        dependency:
+          section: 02-SequentialDataStructure
+          lesson: heap
+          task: peek
+          file: src/Heap.java
+          placeholder: 4
+        initial_state:
+          length: 115
+          offset: 852
+        initialized_from_dependency: true
+        encrypted_possible_answer: fDgEwCQweXqqR8CAsTrOpxtoaVZzXeq/cjLDlCoP3RHO1rayw3RJ2foWTtXyidye1+N3dyqeiNereYzpPj3zmivEoTFzl3jjDmxHxkBCXELvaSj2Z5+Km9bxlRtZV3YBSNXpSsjZf28nOZf3fh4PvdnT8nH2Hyr5SAtckfARPvtDpDHEnCHkatthp8Scgesg
+        selected: false
+        status: Solved
+        is_visible: false
+    learner_created: false
+  - name: test/TestHeap.java
+    visible: false
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 23 Aug 2025 23:28:21 UTC"
+record: -1

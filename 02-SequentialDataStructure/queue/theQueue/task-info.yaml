@@ -1,0 +1,50 @@
+type: edu
+files:
+  - name: src/Queue.java
+    visible: true
+    placeholders:
+      - offset: 133
+        length: 85
+        placeholder_text: "/* TODO: should add the data to the rear of the queue */"
+        initial_state:
+          length: 56
+          offset: 133
+        initialized_from_dependency: false
+        encrypted_possible_answer: coO3SbMT492Wv+vCdC3CBw==
+        selected: true
+        status: Solved
+      - offset: 259
+        length: 84
+        placeholder_text: "/* TODO: should remove the front of the queue */"
+        initial_state:
+          length: 48
+          offset: 230
+        initialized_from_dependency: false
+        encrypted_possible_answer: 29RAbWKPw7eiuwUR+a3Bq81YGFlEu8u783SLjXlSDm0=
+        selected: true
+        status: Solved
+      - offset: 381
+        length: 79
+        placeholder_text: "/* TODO: should get the front of the queue */"
+        initial_state:
+          length: 45
+          offset: 316
+        initialized_from_dependency: false
+        encrypted_possible_answer: 03j7Bs56SRJO73QWArFRCs0ebz6vGR/it1jg4wKjNjI=
+        selected: true
+        status: Solved
+    learner_created: false
+  - name: test/TestQueue.java
+    visible: false
+    learner_created: false
+  - name: src/AbstractList.java
+    visible: false
+    learner_created: false
+  - name: src/LinkedList.java
+    visible: false
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 23 Aug 2025 11:42:48 UTC"
+record: -1

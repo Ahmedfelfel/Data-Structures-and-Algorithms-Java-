@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="TermsProjectSettings">
+    <currentTermsLanguage>en</currentTermsLanguage>
+    <terms>
+      <map>
+        <entry key="en">
+          <value>
+            <map>
+              <entry key="152387148">
+                <value>
+                  <list>
+                    <Term value="binary search tree" definition="A binary search tree is a data structure in which each node has at most two children, and all the nodes in the left subtree have a value less than the root while all the nodes in the right subtree have a value greater than the root." />
+                    <Term value="traversal algorithm" definition="A traversal algorithm is a method used to visit all the nodes in a binary search tree in a systematic manner, such as in-order, pre-order, or post-order traversal." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="238624296">
+                <value>
+                  <list>
+                    <Term value="ListNode" definition="A ListNode is a data structure component that holds data and a pointer to the next ListNode in a linked list." />
+                    <Term value="generic class" definition="A generic class is a type of class designed to operate with a specified type parameter, allowing it to support any data type and exhibit polymorphism." />
+                    <Term value="polymorphism" definition="Polymorphism allows a single interface or class to represent different underlying data types or structures." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="274410998">
+                <value>
+                  <list>
+                    <Term value="ArrayList" definition="ArrayList is a dynamically sized data container provided by Java that can grow or shrink during runtime." />
+                    <Term value="ensureCapacity" definition="ensureCapacity() is a method in Java's ArrayList that adjusts the capacity of the ArrayList to match a predefined required capacity." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="335210645">
+                <value>
+                  <list>
+                    <Term value="0-1 knapsack algorithm" definition="A dynamic programming approach used to solve the knapsack problem where each item is either included or excluded from the knapsack." />
+                    <Term value="memoization" definition="A technique in dynamic programming where results of expensive function calls are stored and reused to optimize performance." />
+                    <Term value="top-down approach" definition="An approach in dynamic programming where the problem is solved by breaking it into smaller subproblems starting from the main problem." />
+                    <Term value="bottom-up approach" definition="An approach in dynamic programming where the problem is solved by first solving all possible subproblems and building up to the main problem." />
+                    <Term value="recurrence relation" definition="An equation or inequality that recursively defines a sequence of values, commonly used in the formulation of dynamic programming solutions." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="370516593">
+                <value>
+                  <list>
+                    <Term value="linked list" definition="A linked list is a data structure consisting of nodes where each node contains data and a reference to the next node in the sequence." />
+                    <Term value="addFirst(E data)" definition="Adds a new data element to the head (beginning) of the linked list." />
+                    <Term value="addLast(E data)" definition="Adds a new data element to the tail (end) of the linked list." />
+                    <Term value="peekFirst()" definition="Retrieves, but does not remove, the data at the head (beginning) of the linked list." />
+                    <Term value="peekLast()" definition="Retrieves, but does not remove, the data at the tail (end) of the linked list." />
+                    <Term value="removeFirst()" definition="Retrieves and removes the data at the head (beginning) of the linked list." />
+                    <Term value="removeLast()" definition="Retrieves and removes the data at the tail (end) of the linked list." />
+                    <Term value="toString()" definition="Generates a pretty-printed string representation of the linked list." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="435266059">
+                <value>
+                  <list>
+                    <Term value="Breadth-First Search (BFS)" definition="Breadth-First Search (BFS) is an algorithm for traversing or searching graph data structures using a queue, exploring all neighbors at the present depth prior to moving on to nodes at the next depth level." />
+                    <Term value="HashMap" definition="HashMap is a data structure in programming that stores key-value pairs, allowing for fast retrieval, insertion, and deletion of elements using a hash function." />
+                    <Term value="Queue" definition="Queue is a data structure that operates on a First In, First Out (FIFO) principle where elements are added to the rear and removed from the front." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="450520403">
+                <value>
+                  <list>
+                    <Term value="top-down DP Fibonacci" definition="A dynamic programming approach to calculate Fibonacci numbers where the problem is divided into smaller sub-problems and solved recursively with memoization." />
+                    <Term value="Memoization" definition="A technique used to cache the results of overlapping sub-problems to optimize recursive solutions in dynamic programming." />
+                    <Term value="memoization" definition="A technique used to cache the results of overlapping sub-problems to optimize recursive solutions in dynamic programming." />
+                    <Term value="bottom-up approach" definition="A dynamic programming approach where the problem is solved iteratively by building up solutions for smaller sub-problems to obtain the final result." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="618943888">
+                <value>
+                  <list>
+                    <Term value="removeFirst()" definition="The removeFirst() method removes the node at the head and also returns the data of the node that is just removed." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="670278401">
+                <value>
+                  <list>
+                    <Term value="Dijkstra's Shortest Path algorithm" definition="Dijkstra's Shortest Path algorithm is used to find the shortest path between nodes in a graph." />
+                    <Term value="priority queue (min heap)" definition="A priority queue (min heap) is a data structure where the smallest element is always at the front or root, used to efficiently select the smallest or highest-priority item." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="758915147">
+                <value>
+                  <list>
+                    <Term value="BinaryTreeNode" definition="BinaryTreeNode is a class representing a node in a binary tree, where the node contains a value and pointers to child nodes." />
+                    <Term value="generic type" definition="A generic type in programming allows for defining classes, methods, and data structures with a placeholder for types, enabling scalability and type safety." />
+                    <Term value="BinarySearchTree" definition="BinarySearchTree is a data structure where each node follows the property that the left child is less than the parent node, and the right child is greater than or equal to the parent node." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="929505196">
+                <value>
+                  <list>
+                    <Term value="BinaryTreeNode" definition="BinaryTreeNode is a node in a binary tree containing a key, left subtree, and right subtree." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="996867878">
+                <value>
+                  <list>
+                    <Term value="peek()" definition="The peek() method returns the top of the heap without removing it." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1001632422">
+                <value>
+                  <list>
+                    <Term value="Bellman-Ford algorithm" definition="The Bellman-Ford algorithm is used to find the shortest path from a source vertex to all other vertices in a weighted graph, even with negative weight edges." />
+                    <Term value="shortest path tree" definition="A shortest path tree is a subgraph of a weighted graph, where the paths from the root to all other nodes are the shortest possible paths." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1044536513">
+                <value>
+                  <list>
+                    <Term value="LinkedList" definition="A LinkedList is a data structure that should have head and tail pointers and a size attribute." />
+                    <Term value="empty constructor" definition="An empty constructor is a constructor that creates an object without initializing its instance variables or parameters." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1130667958">
+                <value>
+                  <list>
+                    <Term value="adjacency list" definition="An adjacency list is a graph representation where each node has a list (often represented as a map) of connected nodes and their associated edge weights." />
+                    <Term value="graph" definition="A Graph is a data structure consisting of nodes (or vertices) and edges that connect pairs of nodes." />
+                    <Term value="Graph" definition="A Graph is a data structure consisting of nodes (or vertices) and edges that connect pairs of nodes." />
+                    <Term value="node" definition="A Node (or vertex) is a single element in a graph that can connect to other nodes through edges." />
+                    <Term value="weight" definition="In graph theory, Weight represents the value associated with an edge, typically indicating cost, distance, or capacity." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1561024383">
+                <value>
+                  <list>
+                    <Term value="edge list" definition="An edge list is a graph data structure that is represented as a list of edges, where each edge connects two nodes and can have an associated weight." />
+                    <Term value="GraphEdge&lt;T, W&gt;" definition="GraphEdge&lt;T, W&gt; represents an edge in a graph with T as the data type of the node and W as the data type of the edge's weight." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1768296643">
+                <value>
+                  <list>
+                    <Term value="LinkedList" definition="A LinkedList is a linear data structure where each element is a separate object, typically consisting of a value and a reference to the next element." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1996292484">
+                <value>
+                  <list>
+                    <Term value="0-1 knapsack algorithm" definition="The 0-1 knapsack algorithm is a dynamic programming approach to solve the decision-making problem of selecting items with given weights and values to maximize total value while staying within a weight capacity." />
+                    <Term value="recurrence relation" definition="In the context of the 0-1 knapsack algorithm, the recurrence relation determines the optimal solution by comparing scenarios of including or excluding an item based on its weight and value." />
+                  </list>
+                </value>
+              </entry>
+            </map>
+          </value>
+        </entry>
+      </map>
+    </terms>
+    <termsVersions>
+      <map>
+        <entry key="en" value="28" />
+      </map>
+    </termsVersions>
+  </component>
+</project>

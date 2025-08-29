@@ -1,0 +1,96 @@
+type: edu
+custom_name: Positioning
+files:
+  - name: src/Heap.java
+    visible: true
+    placeholders:
+      - offset: 161
+        length: 164
+        placeholder_text: "/* TODO: initialize all fields in the class and allocate arr[]\
+      \ upto the capacity */"
+        dependency:
+          section: 02-SequentialDataStructure
+          lesson: heap
+          task: arrayForTheHeap
+          file: src/Heap.java
+          placeholder: 1
+        initial_state:
+          length: 83
+          offset: 161
+        initialized_from_dependency: true
+        encrypted_possible_answer: PuBFKiCRkKeQgQxqHtYoW3OtIjd3qLt57A4XxhOtT2XwqzPvp8zUoiCIL65pqISE3MDHcAILpPdoohl3kuWVrRn12qB3To1pTd3z8qESIdcJGSlnMPCCQl3e/6xgiGDa
+        selected: false
+        status: Solved
+        student_answer: |-
+          /* TODO: initialize all fields in the class and allocate arr[] upto the capacity */
+                this.capacity = capacity;
+                this.arr = new ArrayList<>(this.capacity);
+        is_visible: false
+      - offset: 369
+        length: 69
+        placeholder_text: "/* TODO: implement positioning calculation */"
+        initial_state:
+          length: 45
+          offset: 288
+        initialized_from_dependency: false
+        encrypted_possible_answer: kcdFO58k+ibIQzkWKFl/nrg9if9Il8eAq7n+TW+A9ok=
+        selected: true
+        status: Solved
+        student_answer: |-
+          /* TODO: implement positioning calculation */
+                return (idx-1)/2;
+      - offset: 480
+        length: 69
+        placeholder_text: "/* TODO: implement positioning calculation */"
+        initial_state:
+          length: 45
+          offset: 375
+        initialized_from_dependency: false
+        encrypted_possible_answer: yXU+WIboJ3vIgy2xUgbd2op4/WkrIqHMEnbJJmvpros=
+        selected: true
+        status: Solved
+        student_answer: |-
+          /* TODO: implement positioning calculation */
+                return (idx*2)+1;
+      - offset: 592
+        length: 69
+        placeholder_text: "/* TODO: implement positioning calculation */"
+        initial_state:
+          length: 45
+          offset: 463
+        initialized_from_dependency: false
+        encrypted_possible_answer: yXU+WIboJ3vIgy2xUgbd2vfllzcwh3Kp2k31J4VgowQ=
+        selected: true
+        status: Solved
+        student_answer: |-
+          /* TODO: implement positioning calculation */
+                return (idx*2)+2;
+      - offset: 700
+        length: 115
+        placeholder_text: "/* TODO: enlarge by increasing/doubling the capacity, allocate\
+      \ a new array, and copy the original to the new one */"
+        dependency:
+          section: 02-SequentialDataStructure
+          lesson: heap
+          task: arrayForTheHeap
+          file: src/Heap.java
+          placeholder: 2
+        initial_state:
+          length: 115
+          offset: 547
+        initialized_from_dependency: true
+        encrypted_possible_answer: fDgEwCQweXqqR8CAsTrOpxtoaVZzXeq/cjLDlCoP3RHO1rayw3RJ2foWTtXyidye1+N3dyqeiNereYzpPj3zmivEoTFzl3jjDmxHxkBCXELvaSj2Z5+Km9bxlRtZV3YBSNXpSsjZf28nOZf3fh4PvdnT8nH2Hyr5SAtckfARPvtDpDHEnCHkatthp8Scgesg
+        selected: false
+        status: Solved
+        student_answer: "/* TODO: enlarge by increasing/doubling the capacity, allocate\
+      \ a new array, and copy the original to the new one */"
+        is_visible: false
+    learner_created: false
+  - name: test/TestHeap.java
+    visible: false
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 23 Aug 2025 20:50:28 UTC"
+record: 16
